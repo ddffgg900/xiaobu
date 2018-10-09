@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>小布</title>
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="node_modules/fullpage.js/dist/fullpage.min.css" />
+
+  <!-- 以下行是可选的。 只有在使用选项css3:false，并且您希望使用其他缓动效果，而非“linear”、“swing”或“easeInOutCubic”时才有必要。 -->
+  <script src="node_modules/fullpage.js/vendors/easings.min.js"></script>
+
+  <!-- 以下行仅在使用选项scrollOverflow:true的情况下是必需的 -->
+  <script type="text/javascript" src="node_modules/fullpage.js/vendors/scrolloverflow.min.js"></script>
+
+  <script type="text/javascript" src="node_modules/fullpage.js/dist/fullpage.min.js"></script>
+  
+  <style>
+  
+  </style>
+</head>
+<body>
+  <nav>
+
+  </nav>
+  <header>
+
+  </header>
+  <div id="fullpage">
+    <div class="section">Some section</div>
+    <div class="section">
+      <div class="slide"> 幻灯片 1 </div>
+      <div class="slide"> 幻灯片 2 </div>
+      <div class="slide"> 幻灯片 3 </div>
+      <div class="slide"> 幻灯片 4 </div>
+    </div>
+    <div class="section">Some section</div>
+    <div class="section">Some section</div>
+  </div>
+ 
+<script>
+  $(document).ready(function() {
+    $('#fullpage').fullpage({
+      //options here
+      licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
+      anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'lastPage'],
+      autoScrolling:true,
+      scrollHorizontally: true,
+      css3: true,
+      scrollOverflow: true,
+      resetSliders: true,
+
+    });
+
+    //methods
+    $.fn.fullpage.setAllowScrolling(false);
+  });
+</script>
+ 
+</body>
+</html>
