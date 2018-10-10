@@ -1,0 +1,235 @@
+
+.section-coop .fp-tableCell {
+  display: block;
+  padding-top: 108px;
+  box-sizing: border-box;
+}
+
+/* .slide-coop {
+  background-image: url('/home/img/coop-bg.jpg');
+} */
+.section-coop h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+.slide-coop2 h1 {
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.coop-content {
+  box-sizing: border-box;
+  position: relative;
+  margin-bottom: 360px;
+}
+
+.coop-content h2 {
+  height: 24px;
+  margin-bottom: 4px;
+  text-indent: -10000px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: contain;
+}
+
+.coop-content p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #000;
+}
+
+.coop-content ul {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.coop-content li {
+  width: 50%;
+  padding: 0 130px 0 102px;
+  margin-bottom: 65px;
+  box-sizing: border-box;
+  text-align: left;
+  vertical-align: top;
+}
+
+.coop-content li:nth-child(5),
+.coop-content li:nth-child(6) {
+  margin-bottom: 0;
+}
+
+.coop-content li:nth-child(even) {
+  padding: 0 102px 0 130px;
+}
+
+.coop-content li:nth-child(2) {
+  padding-right: 155px;
+}
+
+.coop-footer-logo {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 185px;
+  background: #1c1c1c;
+}
+.coop-footer-logo:before,
+.coop-footer-logo:after {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin: -3px 0 0 -17px;
+  width: 34px;
+  height: 6px;
+  content: "";
+  background: #d8b46f;
+}
+.coop-footer-logo:after {
+  margin: -17px 0 0 -3px;
+  width: 6px;
+  height: 34px;
+}
+
+.coop-footer-logo img {
+  display: inline-block;
+  width: 120px;
+  margin-top: 50px;
+}
+.coop-list {
+  position: relative;
+}
+.coop-list ul {
+  margin: 0 auto;
+  max-width: 640px;
+  width: 90%;
+}
+
+.coop-list li {
+  float: left;
+  display: flex;
+  width: 80px;
+  height: 75px;
+  align-items: center;
+}
+
+.coop-list li:nth-child(23),
+.coop-list li:nth-child(24),
+.coop-list li:nth-child(25),
+.coop-list li:nth-child(26) {
+  padding: 0 10px;
+  width: auto;
+}
+
+.coop-list li img {
+  display: block;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1080px) {
+  .section-coop .fp-tableCell {
+    padding-top: 80px;
+  }
+  .coop-content {
+    margin-bottom: 130px;
+  }
+  .coop-mobile-only.slide {
+    display: block !important;
+  }
+
+  .coop-content li {
+    margin-bottom: 50px;
+  }
+
+  .coop-content li:nth-child(2),
+  .coop-content li:nth-child(6) {
+    display: none;
+  }
+
+  .coop-content li:first-child,
+  .coop-content li:nth-child(4) {
+    padding: 0 40px 0 30px;
+  }
+
+  .coop-content li:nth-child(3),
+  .coop-content li:nth-child(5) {
+    padding: 0 30px 0 40px;
+  }
+
+  .coop-list li {
+    width: 60px;
+    height: 56px;
+  }
+}
+
+@media (max-width: 767px) {
+  .section-coop .fp-tableCell {
+    padding-top: 70px;
+  }
+  .section-coop .slide-coop2 .fp-tableCell {
+    padding-top: 52px;
+  }
+  .section-coop h1 {
+    font-size: 24px;
+  }
+  .section-coop .slide-coop2 h1 {
+    display: none;
+  }
+  .coop-content li {
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 0 20px 35px !important;
+    font-size: 12px;
+  }
+
+  .coop-content li:nth-child(even) {
+    display: none;
+  }
+
+  .coop-content h2 {
+    position: absolute;
+    left: -30px;
+    bottom: 5px;
+    width: 100%;
+    background-position: right bottom;
+  }
+
+  .coop-content li:nth-child(5) h2 {
+    bottom: 25px;
+  }
+
+  .coop-content li:nth-child(3) h2 {
+    background-size: auto 90%;
+  }
+  .coop-content li:nth-child(5) h2{
+    background-size: auto 70%;
+  }
+
+  .coop-content p {
+    font-size: 12px;
+  }
+  .coop-footer-logo {
+    height: 80px;
+    /* background: #0f0f0f url('/home/img/coop-footer-s.png') no-repeat center center; */
+    background-size: contain;
+  }
+  /* .slide-coop {
+    background-image: url('/home/img/coop-bg-s.png') !important;
+  } */
+
+  .coop-list ul {
+    width: 300px;
+  }
+  .coop-list li:nth-child(23),
+  .coop-list li:nth-child(24) {
+    padding: 0 0 0 10px;
+  }
+  .coop-list li:nth-child(25){
+    padding: 10px;
+  }
+  .coop-footer-logo img {
+    display: none;
+  }
+}
