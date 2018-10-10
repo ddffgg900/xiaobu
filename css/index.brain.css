@@ -1,7 +1,7 @@
 
-.slide-brain {
+/* .slide-brain {
   background-image: url('/home/img/brain-bg.png');
-}
+} */
 
 .slide-brain .fp-tableCell {
   vertical-align: top;
@@ -198,9 +198,9 @@
   /*.slide-brain {
     background-image: url('/home/img/brain-bg-320.png');
   }*/
-  .slide-brain {
+  /* .slide-brain {
     background-image: url('/home/img/brain-bg-760.png');
-  }
+  } */
   .brain-content {
     padding-top: 80px;
   }
