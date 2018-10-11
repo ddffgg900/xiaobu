@@ -1,0 +1,143 @@
+
+.section-microphone .fp-tableCell {
+  display: block;
+  padding-top: 125px;
+  box-sizing: border-box;
+}
+
+.section-microphone h1,
+.section-microphone p {
+  color: #000;
+}
+.section-microphone h1 {
+  font-size: 60px;
+}
+.section-microphone p {
+  margin: 20px auto 65px;
+  font-size: 18px;
+  line-height: 26px;
+  max-width: 720px;
+}
+
+div.microphone-text-param-group {
+  line-height: 1;
+}
+div.microphone-text-param-group1 {
+  display: inline-block;
+  width: 40%;
+  max-width: 400px;
+  text-align: left;
+}
+div.microphone-text-param-group1:after {
+  float: right;
+  margin-top: 14px;
+  width: 0;
+  height: 90px;
+  content: "";
+  border-right: 1px dashed #0082ff;
+}
+div.microphone-text-param-group2 {
+  display: inline-block;
+  max-width: 400px;
+  width: 40%;
+  text-align: right;
+}
+span.microphone-text-param {
+  font-weight: 100;
+  color: #3880f7;
+  font-size: 125px;
+  letter-spacing: -3px;
+}
+span.microphone-text-unit {
+  color: #3880f7;
+  font-size: 33px;
+}
+span.microphone-text-unit2 {
+  color: #3880f7;
+  font-size: 25px;
+}
+div.microphone-text-param-group2 span.microphone-text-param {
+  padding-right: 5px;
+  letter-spacing: -10px;
+}
+@media (max-width: 1200px) {
+  .section-microphone .fp-tableCell {
+    padding-top: 74px;
+  }
+  .section-microphone h1 {
+    font-size: 40px;
+  }
+  .section-microphone p {
+    margin: 10px auto;
+    max-width: 640px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  div.microphone-text-param-group1,
+  div.microphone-text-param-group2 {
+    max-width: 230px;
+  }
+  div.microphone-text-param-group1:after {
+    margin-top: 8px;
+    height: 50px;
+  }
+  span.microphone-text-param {
+    font-size: 70px;
+    letter-spacing: -3px;
+  }
+  span.microphone-text-unit {
+    font-size: 18px;
+  }
+  span.microphone-text-unit2 {
+    font-size: 14px;
+  }
+  div.microphone-text-param-group2 span.microphone-text-param {
+    padding-right: 3px;
+    letter-spacing: -6px;
+  }
+}
+@media (max-width: 767px) {
+  .section-microphone .invisible {
+    opacity: 1 !important;
+  }
+
+  .section-microphone h1 {
+    font-size: 24px;
+  }
+  *.invisible.microphone-text {
+    opacity: 1 !important;
+  }
+  h1.microphone-text {
+    font-size: 24px;
+  }
+  p.microphone-text-p1 {
+    margin: 10px auto 30px;
+    padding: 0 40px;
+  }
+  span.microphone-text-param {
+    font-size: 48px;
+  }
+  span.microphone-text-unit {
+    font-size: 16px;
+  }
+  span.microphone-text-unit2 {
+    font-size: 14px;
+  }
+  div.microphone-text-param-group {
+    top: 180px;
+  }
+  div.microphone-text-param-group1,
+  div.microphone-text-param-group2 {
+    max-width: 180px;
+    height: 30px;
+    line-height: 30px;
+    width: 41%;
+  }
+  div.microphone-text-param-group1:after {
+    margin-top: 0;
+    height: 30px;
+  }
+  .section-microphone .slide {
+    background-image: url('/home/img/microphone-320.jpg');
+  }
+}

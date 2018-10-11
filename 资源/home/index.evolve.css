@@ -1,0 +1,54 @@
+
+.section-evolve {
+
+}
+.side-evolve {
+  background-image: url('/home/img/evolve.jpg');
+}
+
+.section-evolve .fp-tableCell {
+  display: block;
+  padding-top: 160px;
+  box-sizing: border-box;
+}
+
+.evolve-title {
+  margin-bottom: 20px;
+  font-size: 60px;
+  color: #fff;
+}
+.evolve-text {
+  font-size: 18px;
+  line-height: 28px;
+  color: #fff;
+}
+
+@media (max-width: 1200px) {
+  .side-evolve {
+    background-image: url('/home/img/evolve-720.jpg');
+  }
+  .section-evolve .fp-tableCell {
+    padding-top: 110px;
+  }
+  .evolve-title {
+    margin-bottom: 8px;
+    font-size: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .section-evolve .fp-tableCell {
+    padding-top: 90px;
+  }
+  .evolve-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .evolve-text {
+    margin: 0 auto;
+    width: 70%;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 0 30px;
+  }
+}

@@ -1,0 +1,140 @@
+
+.section-lamp h1 {
+  margin-bottom: 30px;
+  padding-top: 200px;
+  font-size: 60px;
+  color: #fff;
+}
+.section-lamp .metas {
+  display: flex;
+  margin: 0 auto;
+  max-width: 700px;
+}
+.section-lamp .metas li {
+  flex: 1;
+  padding: 0 15px;
+  color: #fff;
+}
+.section-lamp .metas li + li:before {
+  float: left;
+  margin: 40px 0 0 -15px;
+  width: 0;
+  height: 100px;
+  content: "";
+  opacity: .3;
+  border-left: 1px dashed #0082ff;
+}
+.section-lamp .metas .view {
+  display: block;
+  margin: 0 auto 10px;
+  width: 185px;
+  height: 185px;
+  font-size: 14px;
+  line-height: 185px;
+  background: no-repeat 50%;
+}
+.section-lamp .metas .view em {
+  font-size: 82px;
+  color: #0082ff;
+  font-weight: 100;
+  letter-spacing: -3px;
+}
+
+.section-lamp .metas .tape .view {
+  background-image: url('/home/img/icon-tape.png')
+}
+.section-lamp .metas .color .view {
+  background-image: url('/home/img/icon-color.png')
+}
+.section-lamp .metas .color .view em {
+  font-size: 50px;
+}
+.section-lamp .metas .light .view {
+  font-size: 24px;
+  letter-spacing: -3px;
+  line-height: 1;
+  background-image: url('/home/img/icon-light.png')
+}
+.section-lamp .metas .light .view em {
+  display: block;
+  padding-top: 64px;
+  font-size: 34px;
+}
+.section-lamp .metas p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.section-lamp .video-fullbg__cover {
+  background-image: url('/home/img/video-lamp-end.jpg')
+}
+
+@media (max-width: 1200px) {
+  .section-lamp h1 {
+    padding-top: 155px;
+    font-size: 40px;
+  }
+  .section-lamp .metas {
+    max-width: 650px;
+  }
+}
+@media (max-width: 767px) {
+  .section-lamp {
+    background: url('/home/img/lamp-320.png') no-repeat bottom center;
+    background-size: cover;
+    padding-top: 70px;
+  }
+
+  .section-lamp .invisible {
+    opacity: 1 !important;
+  }
+
+  .section-lamp .fp-tableCell {
+    display: block;
+  }
+  .section-lamp h1 {
+    font-size: 24px;
+    padding-top: 0;
+  }
+  .section-lamp .metas {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .section-lamp .metas li {
+    width: 100%;
+    padding-left: 30px;
+    flex: none;
+    display: flex;
+    align-items: center;
+  }
+  .section-lamp .metas .view {
+    margin: 0 5px;
+    width: 84px;
+    height: 84px;
+    line-height: 84px;
+    background-size: cover;
+  }
+  .section-lamp .metas .view em {
+    font-size: 32px;
+    letter-spacing: -1px;
+  }
+  .section-lamp .metas .color .view em {
+    font-size: 20px;
+  }
+  .section-lamp .metas .light .view {
+    font-size: 12px;
+    letter-spacing: -1px;
+  }
+  .section-lamp .metas .light .view em {
+    padding-top: 27px;
+    font-size: 18px;
+  }
+  .section-lamp .metas li + li:before {
+    display: none;
+  }
+  .section-lamp .metas p {
+    font-size: 14px;
+    text-align: left;
+  }
+}

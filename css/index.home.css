@@ -1,0 +1,31 @@
+.home-content {
+  max-width: 1050px;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  float: left;
+}
+.home-title1 {
+  padding-top: 2.6em;
+  color: #853117;
+  font-size: 1.5em;
+}
+.home-title2 {
+  padding-top: 0.4em;
+  color: #853117;
+  font-size: 2.8em;
+}
+.home-tag {
+  padding-top: 2.0em;
+  color: #853117;
+  font-size: 1.0em;
+  line-height: 1.8em;
+}
+.home-cash {
+  padding-top: 0.4em;
+  color: #ff0000;
+  font-size: 2.8em;
+  font-weight: 400;
+}
+
+
