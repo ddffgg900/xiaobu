@@ -479,7 +479,7 @@ footer .download-btn {
     header .menu {
         height: 40px;
         width: 40px;
-        background: #0064dc;
+        background: #f6ae36;
         text-align: center;
     }
     header .content>a span,
@@ -559,7 +559,7 @@ footer .download-btn {
     }
     header {
         height: 40px;
-        background: #0082ff !important;
+        background: #fdd244 !important;
     }
     header .purchase {
         width: 47px;
