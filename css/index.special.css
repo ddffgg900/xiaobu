@@ -3,7 +3,8 @@
   margin: 0 auto;
   width: 100%;
   text-align: center;
-  float: left;
+  position: absolute;
+  top: 1em;
 }
 
 .special-title {

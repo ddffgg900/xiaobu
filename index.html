@@ -12,6 +12,7 @@
   <link rel="stylesheet" type="text/css" href="css/examples.css" />
   <link rel="stylesheet" type="text/css" href="css/common.css" />
   <link rel="stylesheet" type="text/css" href="css/index.home.css" />
+  <link rel="stylesheet" type="text/css" href="vendor/modal/component.css" />
   <link rel="stylesheet" type="text/css" href="css/index.special.css" />
   <link rel="stylesheet" type="text/css" href="css/index.evolve.css" />
   <link rel="stylesheet" type="text/css" href="css/index.feature.css" />
@@ -85,26 +86,24 @@
         </div>
       </div>
     </div>
-    <!-- <div class="section section-video">
+    <div class="section section-video">
       <div class="slide">
         <div class="video-slogan animated"><span class="me">我在</span><span class="comma">，</span>你说</div>
         <span class="video-play md-trigger animated" style="-webkit-animation-delay: 800ms; animation-delay: 800ms" data-modal="modal-video">点击播放完整视频</span>
-
         <div class="fullscreen-bg pc-only">
-          <video class="video-video fullscreen-bg__video" muted loop playsinline autoplay poster="//g.alicdn.com/forest/ai-labs-portal-web/0.7.29/home/img/video-main.png">
-                <source src="//g.alicdn.com/forest/ai-labs-portal-web/0.7.29/video/mainBg.mp4" type="video/mp4">
-              </video>
+          <video class="video-video fullscreen-bg__video" muted loop playsinline autoplay poster="//g.alicdn.com/forest/ai-labs-portal-web/0.7.30/home/img/video-main.png">
+          <source src="//g.alicdn.com/forest/ai-labs-portal-web/0.7.30/video/mainBg.mp4" type="video/mp4">
+           </video>
         </div>
-
         <div class="md-modal md-effect-1" id="modal-video">
           <div class="md-close"></div>
           <video controls playsinline>
-                <source src="//g.alicdn.com/forest/ai-labs-portal-web/0.7.29/video/main.mp4" type="video/mp4">
-              </video>
+            <source src="//g.alicdn.com/forest/ai-labs-portal-web/0.7.29/video/main.mp4" type="video/mp4">
+          </video>
         </div>
         <div class="md-overlay"></div>
       </div>
-    </div> -->
+    </div>
     <div class="section">
       <div class="slide">
         <div class="home-content">
@@ -181,50 +180,6 @@
         </div>
       </div>
     </div>
-
-    <!-- <div class="section section-microphone">
-      <div class="slide">
-        <h1 class="invisible animated">xxxxxxxx</h1>
-        <p class="invisible animated microphone-text-p1" style="-webkit-animation-delay: 800ms; animation-delay: 800ms">xxxxxxxxx</p>
-        <div class="microphone-text-param-group">
-          <div class="invisible animated microphone-text-param-group1" style="-webkit-animation-delay: 1400ms; animation-delay: 1400ms">
-            <span class="microphone-text-param">75</span>
-            <span class="microphone-text-unit"> dB</span>
-            <span class="microphone-text-unit2">分贝</span>
-          </div>
-          <div class="invisible animated microphone-text-param-group2" style="-webkit-animation-delay: 1700ms; animation-delay: 1700ms">
-            <span class="microphone-text-param">5.0</span>
-            <span class="microphone-text-unit"> M</span>
-            <span class="microphone-text-unit2">米</span>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
-
-
-
-    <!-- <div class="section section-cpu">
-      <div class="slide slide-cpu">
-        <div class="cpu-content">
-          <h1 class="animated">小巧身材 强大内心</h1>
-          <div class="cpu-info animated" style="-webkit-animation-delay: 800ms; animation-delay: 800ms">
-            <p class="sub">对比市面高端A53内核芯片</p>
-            <ul class="metas">
-              <li><em>32<span class="unit">%</span></em>功耗降低</li>
-              <li><em>25<span class="unit">%</span></em>效率提升</li>
-            </ul>
-
-            <p class="desc">小巧机身内藏专为智能语音助手定制的Cortex A35四核架构CPU，独立NEON处理单元，带来更快的语音识别速度，更优秀的音频处理效果。</p>
-          </div>
-          <div class="line"></div>
-        </div>
-        
-      </div>
-    </div> -->
-
-
-
 
     <div class="section section-lamp">
       <div class="slide">
@@ -390,11 +345,9 @@
 
   <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
   <script type="text/javascript" src="node_modules/fullpage.js/dist/fullpage.min.js"></script>
-  <script src="node_modules/fullpage.js/vendors/easings.min.js"></script>
-  <script src="node_modules/swiper/dist/js/swiper.min.js"></script>
-  <script src="node_modules/swiper/dist/js/swiper.animate1.0.3.min.js"></script>
-  <script type="text/javascript" src="//g.alicdn.com/forest/ai-labs-portal-web/0.7.19/vendor/modal/classie.js"></script>
-  <script type="text/javascript" src="//g.alicdn.com/forest/ai-labs-portal-web/0.7.19/vendor/modal/modalEffects.js"></script>
+  <script type="text/javascript" src="vendor/modal/modalEffects.js"></script>
+  <script type="text/javascript" src="vendor/modal/classie.js"></script>
+  
   <script>
     /* $(document).ready(function() {
                               $('#myContainer').fullpage({
