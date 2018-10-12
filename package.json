@@ -1,0 +1,27 @@
+{
+  "name": "xiaobu",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000x\u0000i\u0000a\u0000o\u0000b\u0000u\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "dependencies": {
+    "fullpage.js": "^3.0.3",
+    "jquery": "^3.3.1",
+    "swiper": "^4.4.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.20.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddffgg900/xiaobu.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ddffgg900/xiaobu/issues"
+  },
+  "homepage": "https://github.com/ddffgg900/xiaobu#readme"
+}
