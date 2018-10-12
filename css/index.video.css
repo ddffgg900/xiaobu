@@ -105,7 +105,7 @@
     height: 80px;
     text-indent: -500px;
     overflow: hidden;
-    background: url('/img/play.png');
+    background: url('../img/play.png');
   }
   .video-play:before {
     display: none;

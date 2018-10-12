@@ -4,25 +4,25 @@
 <head>
   <meta charset="utf-8">
   <title>小布</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
   <link rel="stylesheet" type="text/css" href="css/fullpage.css" />
-  <link rel="stylesheet" type="text/css" href="css/index.css" />
   <link rel="stylesheet" type="text/css" href="css/examples.css" />
   <link rel="stylesheet" type="text/css" href="css/common.css" />
-  <link rel="stylesheet" type="text/css" href="css/index.home.css" />
   <link rel="stylesheet" type="text/css" href="vendor/modal/component.css" />
+  <link rel="stylesheet" type="text/css" href="css/index.css" />
+  <link rel="stylesheet" type="text/css" href="css/index.home.css" />
   <link rel="stylesheet" type="text/css" href="css/index.special.css" />
-  <link rel="stylesheet" type="text/css" href="css/index.evolve.css" />
+  <link rel="stylesheet" type="text/css" href="css/index.video.css" />
+  <!-- <link rel="stylesheet" type="text/css" href="css/index.evolve.css" />
   <link rel="stylesheet" type="text/css" href="css/index.feature.css" />
   <link rel="stylesheet" type="text/css" href="css/index.microphone.css" />
   <link rel="stylesheet" type="text/css" href="css/index.cpu.css" />
   <link rel="stylesheet" type="text/css" href="css/index.lamp.css" />
   <link rel="stylesheet" type="text/css" href="css/index.coop.css" />
   <link rel="stylesheet" type="text/css" href="css/index.params.css" />
-  <link rel="stylesheet" type="text/css" href="css/index.video.css" />
-  <link rel="stylesheet" type="text/css" href="css/index.brain.css" />
+  <link rel="stylesheet" type="text/css" href="css/index.brain.css" /> -->
   <!-- <link rel="stylesheet" href="node_modules/swiper/dist/css/swiper.min.css">
   <link rel="stylesheet" href="node_modules/swiper/dist/css/animate.min.css"> -->
   <style>
@@ -77,12 +77,13 @@
   </header>
   <div class="hidden" id="myContainer">
     <div class="section">
-      <div class="slide">
+      <div class="slide home-slide">
         <div class="home-content">
           <h1 class="home-title1 animated">小布儿童智能音箱</h1>
           <h1 class="home-title2 animated" style="-webkit-animation-delay: 800ms; animation-delay: 800ms">外表萌萌哒<br/>智慧大大的</h1>
-          <h1 class="home-tag animated" style="-webkit-animation-delay: 800ms; animation-delay: 800ms">语聊互动 | 智慧启蒙课 | 内容点播<br/>百科问答 | 语音游戏</h1>
-          <h1 class="home-cash animated" style="-webkit-animation-delay: 800ms; animation-delay: 800ms">¥ 899</h1>
+          <h1 class="home-tag animated" style="-webkit-animation-delay: 1000ms; animation-delay: 1000ms">语聊互动 | 智慧启蒙课 | 内容点播<br/>百科问答 | 语音游戏</h1>
+          <h1 class="home-cash animated" style="-webkit-animation-delay: 1200ms; animation-delay: 1200ms">¥ 899</h1>
+          <div class="buynow animated" style="-webkit-animation-delay: 1400ms; animation-delay: 1400ms" ></div>
         </div>
       </div>
     </div>
@@ -105,6 +106,22 @@
       </div>
     </div>
     <div class="section">
+      <div class="slide home2-slide">
+        <div class="home2-content">
+          <h1 class="home2-info animated">嗨~</h1>
+          <h1 class="home2-info animated"style="-webkit-animation-delay: 800ms; animation-delay: 800ms">你好！我叫小布！</h1>
+          <h1 class="home2-info animated"style="-webkit-animation-delay: 1000ms; animation-delay: 1000ms">我来自一个充满着知识</h1>
+          <h1 class="home2-info animated"style="-webkit-animation-delay: 1200ms; animation-delay: 1200ms">与趣味的神秘小岛，</h1>
+          <h1 class="home2-info animated"style="-webkit-animation-delay: 1400ms; animation-delay: 1400ms">我喜欢冒险，</h1>
+          <h1 class="home2-info animated"style="-webkit-animation-delay: 1600ms; animation-delay: 1600ms">我想要驾驶飞机探索</h1>
+          <h1 class="home2-info animated"style="-webkit-animation-delay: 1800ms; animation-delay: 1800ms">这个精彩世界，</h1>
+          <h1 class="home2-info animated"style="-webkit-animation-delay: 2000ms; animation-delay: 2000ms">今天，我就要来到</h1>
+          <h1 class="home2-info animated"style="-webkit-animation-delay: 2200ms; animation-delay: 2200ms">你的身边啦~</h1>
+          
+        </div>
+      </div>
+    </div>
+    <!-- <div class="section">
       <div class="slide">
         <div class="home-content">
           <h1 class="special-title animated">绘本读不停 早教更轻松</h1>
@@ -156,7 +173,7 @@
         </div>
       </div>
 
-    </div>
+    </div> -->
     <div class="section section-brain">
       <div class="slide slide-brain">
         <h1 class="special2-title animated">十万个为什么<br/>闲聊模式开启</h1>
@@ -349,6 +366,20 @@
   <script type="text/javascript" src="vendor/modal/classie.js"></script>
   
   <script>
+    function onBridgeReady(){
+      WeixinJSBridge.call('hideToolbar');
+    }
+
+    if (typeof WeixinJSBridge == "undefined"){
+        if( document.addEventListener ){
+            document.addEventListener('WeixinJSBridgeReady', onBridgeReady, false);
+        }else if (document.attachEvent){
+            document.attachEvent('WeixinJSBridgeReady', onBridgeReady); 
+            document.attachEvent('onWeixinJSBridgeReady', onBridgeReady);
+        }
+    }else{
+        onBridgeReady();
+    }
     /* $(document).ready(function() {
                               $('#myContainer').fullpage({
                                 licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
@@ -364,12 +395,13 @@
       });
       $('#myContainer').fullpage({
         licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
-        sectionsColor: ['#d4b394', '#d4b394', '#d4b394', '#d4b394', '#d4b394', '#d4b394', '#d4b394', '#d4b394', '#d4b394', '#d4b394', '#d4b394'],
+        /* sectionsColor: ['#d4b394', '#d4b394', '#d4b394', '#d4b394', '#d4b394', '#d4b394', '#d4b394', '#d4b394', '#d4b394', '#d4b394', '#d4b394'], */
         // continuousHorizontal: true,
         // continuousHorizontalKey: "dG1hbGwuY29tX0diQ1kyOXVkR2x1ZFc5MWMwaHZjbWw2YjI1MFlXdz1ZeHQ=",
         slidesNavigation: true,
-        anchors: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
+        anchors: ["home", "video", "home2", "4", "5", "6", "7", "8", "9", "10"],
         // loopHorizontal: false,
+        recordHistory: false,
         controlArrows: false,
         navigation: true,
         navigationPosition: 'right',
@@ -382,6 +414,9 @@
             video.load();
             video.play();
           }
+        },
+        afterResize : function(){
+          $.fn.fullpage.reBuild()
         }
       });
 
