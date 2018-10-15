@@ -48,8 +48,8 @@ header .content {
 }
 
 header img {
-    width: 47px;
-    height: 25px;
+    width: 50px;
+    height: 35px;
     padding-top: 12px;
     margin-left: 20px;
 }
@@ -491,7 +491,7 @@ footer .download-btn {
         top: 0;
         left: 50%;
         margin-left: -23px;
-        padding-top: 8px;
+        padding-top: 6px;
     }
     header .content {
         padding: 0;
