@@ -1,8 +1,8 @@
 .feature-slide {
   background-image: url('../img/bj-3/bj-3.jpg');
   background-repeat:no-repeat;
-  background-size:100% 100%;
-  -moz-background-size:100% 100%;
+  background-size:100% auto;
+  -moz-background-size:100% auto;
 }
 
 .feature-content {
@@ -65,10 +65,11 @@
 
 .feature2-slide {
   background-image: url('../img/bj-4/bj-4.jpg');
+  /* background-image: url('../img/test1.jpg'); */
   background-repeat:repeat-y;
-  background-size:100% 100%;
-  -moz-background-size:100% 100%;
-  background-position: 50% 60%;
+  background-size:100% auto;
+  -moz-background-size:100% auto;
+  background-position: 50% 50%;
 }
 .feature2-title{
   color: #853117;
