@@ -33,11 +33,13 @@
 
 <body>
   <nav class="nav-menu mobile-only hidden">
-    <div><a class="lock" href="/">小布</a></div>
-    <div><a href="/">xxxx</a></div>
-    <div><a href="/">xxxx</a></div>
-    <div><a href="/">xxxxx</a></div>
-    <div><a href="/">xxxxxxx</a></div>
+    <div><a class="lock" href="#home">小布首页</a></div>
+    <div><a href="#production">产品介绍</a></div>
+    <div><a href="#feature1">特色内容</a></div>
+    <div><a href="#params1">产品参数</a></div>
+    <div><a href="#download">APP下载</a></div>
+    <div><a href="#service">售后服务</a></div>
+    <div><a href="#about">关于我们</a></div>
     <!-- <div class="div"></div>
     <div><a href="http://open.bot.tmall.com/">AliGenie开发者平台</a></div> -->
   </nav>
@@ -65,7 +67,7 @@
         <!-- <span ><a href="/fggc">公测申请</a></span> -->
 
 
-        <span><a href="/">xxxx</a></span>
+        <span><a href="#">产品介绍</a></span>
         <span><a href="/">xxxxx</a></span>
         <span><a href="/">xxxxx</a></span>
         <span><a href="/">xxxxxxx</a></span>
@@ -399,12 +401,16 @@
         $('.nav-menu').toggleClass('hidden');
         $('.menu').toggleClass('show');
       });
+      $('.nav-menu>div>a').click(function(e){
+        $('.nav-menu').toggleClass('hidden');
+        $('.menu').toggleClass('show');
+      })
       $('#myContainer').fullpage({
         licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
         // continuousHorizontal: true,
         // continuousHorizontalKey: "dG1hbGwuY29tX0diQ1kyOXVkR2x1ZFc5MWMwaHZjbWw2YjI1MFlXdz1ZeHQ=",
         slidesNavigation: true,
-        anchors: ["home", "video", "home2", "4", "5", "6", "7", "8", "9", "10", "11", "12",  "13", "14",  "15"],
+        anchors: ["home", "video", "production", "feature1", "feature2", "feature3", "feature4", "feature5", "feature6", "feature7", "params1", "params2",  "download", "service",  "about"],
         // loopHorizontal: false,
         recordHistory: false,
         controlArrows: false,
