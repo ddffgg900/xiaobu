@@ -339,7 +339,7 @@
 
   <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
   <script type="text/javascript" src="node_modules/fullpage.js/dist/fullpage.min.js"></script>
-  <script type="text/javascript" src="js/easings.min.js"></script>
+  <!-- <script type="text/javascript" src="js/easings.min.js"></script> -->
   <script type="text/javascript" src="vendor/modal/modalEffects.js"></script>
   <script type="text/javascript" src="vendor/modal/classie.js"></script>
   
@@ -367,12 +367,13 @@
         $('.nav-menu').toggleClass('hidden');
         $('.menu').toggleClass('show');
       });
-      $('.nav-menu>li').click(function(e){
+      $('.nav-menu>li>a').click(function(e){
         // $.fn.fullpage.moveTo(e.currentTarget.attributes[0].nodeValue)
         setTimeout(function(){
           $('.nav-menu').toggleClass('hidden');
           $('.menu').toggleClass('show');
-
+          $.fn.fullpage.reBuild();
+          
         }, 300)
         // window.location.reload();
       })
