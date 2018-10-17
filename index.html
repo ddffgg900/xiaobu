@@ -13,35 +13,23 @@
   <link rel="stylesheet" type="text/css" href="vendor/modal/component.css" />
   <link rel="stylesheet" type="text/css" href="css/index.css" />
   <link rel="stylesheet" type="text/css" href="css/index.home.css" />
-  <!-- <link rel="stylesheet" type="text/css" href="css/index.special.css" /> -->
   <link rel="stylesheet" type="text/css" href="css/index.video.css" />
   <link rel="stylesheet" type="text/css" href="css/index.feature.css" />
   <link rel="stylesheet" type="text/css" href="css/index.chat.css" />
-  <!-- <link rel="stylesheet" type="text/css" href="css/index.evolve.css" />
-  <link rel="stylesheet" type="text/css" href="css/index.microphone.css" />
-  <link rel="stylesheet" type="text/css" href="css/index.cpu.css" />
-  <link rel="stylesheet" type="text/css" href="css/index.lamp.css" />
-  <link rel="stylesheet" type="text/css" href="css/index.coop.css" />
-  <link rel="stylesheet" type="text/css" href="css/index.params.css" />
-  <link rel="stylesheet" type="text/css" href="css/index.brain.css" /> -->
-  <!-- <link rel="stylesheet" href="node_modules/swiper/dist/css/swiper.min.css">
-  <link rel="stylesheet" href="node_modules/swiper/dist/css/animate.min.css"> -->
   <style>
 
   </style>
 </head>
 
 <body>
-  <nav class="nav-menu mobile-only hidden">
-    <div><a data-menuanchor="home" class="lock" href="#home">小布首页</a></div>
-    <div><a data-menuanchor="production" href="#production">产品介绍</a></div>
-    <div><a data-menuanchor="feature1" href="#feature1">特色内容</a></div>
-    <div><a data-menuanchor="params1" href="#params1">产品参数</a></div>
-    <div><a data-menuanchor="download" href="#download">APP下载</a></div>
-    <div><a data-menuanchor="service" href="#service">售后服务</a></div>
-    <div><a data-menuanchor="about" href="#about">关于我们</a></div>
-    <!-- <div class="div"></div>
-    <div><a href="http://open.bot.tmall.com/">AliGenie开发者平台</a></div> -->
+  <nav class="nav-menu mobile-only hidden" id="myMenu">
+    <li data-menuanchor="home"><a class="lock" href="#home">小布首页</a></li>
+    <li data-menuanchor="production"><a  href="#production">产品介绍</a></li>
+    <li data-menuanchor="feature1"><a  href="#feature1">特色内容</a></li>
+    <li data-menuanchor="params1" ><a href="#params1">产品参数</a></div>
+    <li data-menuanchor="download"><a  href="#download">APP下载</a></li>
+    <li data-menuanchor="service"><a  href="#service">售后服务</a></li>
+    <li data-menuanchor="about"><a  href="#about">关于我们</a></li>
   </nav>
   <header>
     <div class="content">
@@ -60,22 +48,6 @@
         <div class="menu-open-dot"></div>
       </div>
       <img src="img/header.png" />
-      <nav>
-        <span class="lock"><a href="/">小布AI机器人</a></span>
-        <!--<span ><a href="https://genie.tmall.com/p/rd337339.htm?spm=a1z10.1-b-s.w5001-16719849583.4.3b1b82a4S4VZKd&scene=taobao_shop" target="_blank">限量公测</a></span>-->
-
-        <!-- <span ><a href="/fggc">公测申请</a></span> -->
-
-
-        <span><a href="#">产品介绍</a></span>
-        <span><a href="/">xxxxx</a></span>
-        <span><a href="/">xxxxx</a></span>
-        <span><a href="/">xxxxxxx</a></span>
-      </nav>
-      <!-- <div class="purchase">
-        <a href="https://genie.tmall.com/p/rd517739.htm?spm=a1z10.1-b-s.w5001-17256759748.4.603503d1jWAYs0" class="pc-and-pad">商城</a>
-        <a href="https://genie.tmall.com/p/rd517739.htm?spm=a1z10.1-b-s.w5001-17256759748.4.603503d1jWAYs0" class="mobile-only">商城</a>
-      </div> -->
     </div>
   </header>
   <div class="hidden" id="myContainer">
@@ -92,17 +64,11 @@
     </div>
     <div class="section section-video">
       <div class="slide">
-        <div class="video-slogan animated"><span class="me">我在</span><span class="comma">，</span>你说</div>
-        <span class="video-play md-trigger animated" style="-webkit-animation-delay: 800ms; animation-delay: 800ms" data-modal="modal-video">点击播放完整视频</span>
-        <div class="fullscreen-bg pc-only">
-          <video class="video-video fullscreen-bg__video" muted loop playsinline autoplay poster="//g.alicdn.com/forest/ai-labs-portal-web/0.7.30/home/img/video-main.png">
-          <source src="//g.alicdn.com/forest/ai-labs-portal-web/0.7.30/video/mainBg.mp4" type="video/mp4">
-           </video>
-        </div>
+        <span class="video-play md-trigger" style="-webkit-animation-delay: 800ms; animation-delay: 800ms" data-modal="modal-video"></span>
         <div class="md-modal md-effect-1" id="modal-video">
           <div class="md-close"></div>
           <video controls playsinline>
-            <source src="//g.alicdn.com/forest/ai-labs-portal-web/0.7.29/video/main.mp4" type="video/mp4">
+            <source src="img/video.mp4" type="video/mp4">
           </video>
         </div>
         <div class="md-overlay"></div>
@@ -281,7 +247,8 @@
             <a href="https://itunes.apple.com/cn/app/id1382579721?mt=8" style="background-image: url(./img/bj-12/bj-12-1.png)">
               <div>IOS系统</div>
             </a>
-            <a href="https://imtt.dd.qq.com/16891/A4AB551E909E1284589E6EE1521D133D.apk?fsname=com.freebox.xiaobu_2.0.2_13.apk&csr=1bbd" style="background-image: url(./img/bj-12/bj-12-2.png)">
+            <a href="https://sj.qq.com/myapp/detail.htm?apkName=com.freebox.xiaobu" 
+            style="background-image: url(./img/bj-12/bj-12-2.png)">
               <div>安卓系统</div>
             </a>
           </div>
@@ -316,7 +283,7 @@
         <footer class="fadeInUp__full animated">
           <div class="feature10-tag">
             <p>通过扫描小布AI机器人公众号，获取更多小布同学信息哦！</p>
-            <img src="./img/bj-13/bj-14-1.png">
+            <img data-src="./img/bj-13/bj-14-1.png">
             <p>关注公众号</p>
 
           </div>
@@ -372,38 +339,42 @@
 
   <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
   <script type="text/javascript" src="node_modules/fullpage.js/dist/fullpage.min.js"></script>
+  <script type="text/javascript" src="js/easings.min.js"></script>
   <script type="text/javascript" src="vendor/modal/modalEffects.js"></script>
   <script type="text/javascript" src="vendor/modal/classie.js"></script>
   
   <script>
     // 隐藏返回前进按钮
-    function onBridgeReady(){
-      WeixinJSBridge.call('hideToolbar');
-    }
-
-    if (typeof WeixinJSBridge == "undefined"){
-        if( document.addEventListener ){
-            document.addEventListener('WeixinJSBridgeReady', onBridgeReady, false);
-        }else if (document.attachEvent){
-            document.attachEvent('WeixinJSBridgeReady', onBridgeReady); 
-            document.attachEvent('onWeixinJSBridgeReady', onBridgeReady);
-        }
-    }else{
-        onBridgeReady();
-    }
+   
+    
     // 隐藏返回前进按钮
+    var imgs = [
 
-
+    ];
     $(document).ready(function() {
+      if (typeof WeixinJSBridge == "undefined"){
+        if( document.addEventListener ){
+          document.addEventListener('weixinjsbridgeready', function onbridgeready() {
+            weixinjsbridge.call('hidetoolbar');
+            weixinjsbridge.call('hideoptionmenu');
+          });
+        }
+      }
+      
       $('#myContainer').removeClass('hidden');
       $('.menu').click(function(e) {
         var el = $(e.target);
         $('.nav-menu').toggleClass('hidden');
         $('.menu').toggleClass('show');
       });
-      $('.nav-menu>div>a').click(function(e){
-        $('.nav-menu').toggleClass('hidden');
-        $('.menu').toggleClass('show');
+      $('.nav-menu>li').click(function(e){
+        // $.fn.fullpage.moveTo(e.currentTarget.attributes[0].nodeValue)
+        setTimeout(function(){
+          $('.nav-menu').toggleClass('hidden');
+          $('.menu').toggleClass('show');
+
+        }, 300)
+        // window.location.reload();
       })
       $('#myContainer').fullpage({
         licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
@@ -414,9 +385,13 @@
         // loopHorizontal: false,
         recordHistory: false,
         controlArrows: false,
-        navigation: true,
+        navigation: false,
         navigationPosition: 'right',
         scrollOverflow: false,
+        scrollingSpeed: 800,
+        fitToSectionDelay: 800,
+        animateAnchor:false,
+        css3: true,
         /* afterLoad: function() {
           var video = $('.fp-section.active .fullscreen-bg video')[0];
           var winWidth = $(window).width();
@@ -426,9 +401,6 @@
             video.play();
           }
         }, */
-        afterResize : function(){
-          $.fn.fullpage.reBuild()
-        }
       });
     
       //  有声绘本
@@ -481,8 +453,8 @@
 
       // ===== 介绍视频 =====
       $('.section-video .video-play').click(function(e) {
-        var bgVideo = $('.section-video .fullscreen-bg video')[0];
-        bgVideo.pause();
+        /* var bgVideo = $('.section-video .fullscreen-bg video')[0];
+        bgVideo.pause(); */
         var video = $('#modal-video video')[0];
 
         if (!video.paused) return
@@ -517,7 +489,7 @@
       //     icon.show();
       //   }
       // });
-      $('.md-overlay').click(function(e) {
+      /* $('.md-overlay').click(function(e) {
         var bgVideo = $('.section-video .fullscreen-bg video')[0];
         var winWidth = $(window).width();
 
@@ -525,11 +497,11 @@
           bgVideo.load();
           bgVideo.play();
         }
-      });
+      }); */
       // ===== 介绍视频 END =====
 
       // ===== 麦克风 =====
-      window.video_status = {};
+      /* window.video_status = {};
 
       $('.video-fullbg').on('ended', function() {
 
@@ -558,7 +530,7 @@
 
         video_status[id] = true;
       });
-      // ===== 麦克风 END =====
+      */ // ===== 麦克风 END =====
     });
   </script>
 

@@ -86,8 +86,8 @@
 .feature3-slide {
   background-image: url('../img/bj-5/bj-5.jpg');
   background-repeat:repeat-y;
-  background-size:100% 100%;
-  -moz-background-size:100% 100%;
+  background-size:100% auto;
+  -moz-background-size:100% auto;
   background-position: 50% 60%;
 }
 .feature3-title{
@@ -116,9 +116,9 @@
 .feature4-slide {
   background-image: url('../img/bj-7/bj-7.jpg');
   background-repeat:no-repeat;
-  background-size:100% 110%;
-  -moz-background-size:100% 110%;
-  background-position: 50% 60%;
+  background-size:100% auto;
+  -moz-background-size:100% auto;
+  background-position: 50% 50%;
 }
 .feature4-title {
   color: #853117;
@@ -185,8 +185,8 @@
   width:  20rem;
   height: 15rem;
   background-repeat:no-repeat;
-  background-size:100% 100%;
-  -moz-background-size:100% 100%;
+  background-size:100% auto;
+  -moz-background-size:100% auto;
 }
 .feature5-tag>p  {
   color: #853117;
@@ -215,9 +215,9 @@
 .feature7-slide {
   background-image: url('../img/bj-10/bj-10.jpg');
   background-repeat:no-repeat;
-  background-size:100% 110%;
-  -moz-background-size:100% 110%;
-  background-position: 50% 90%;
+  background-size:100% auto;
+  -moz-background-size:100% auto;
+  background-position: 50% 50%;
 }
 .feature7-footer {
   bottom: 1.6rem;
@@ -232,9 +232,9 @@
 .feature8-slide {
   background-image: url('../img/bj-11/bj-11.jpg');
   background-repeat:no-repeat;
-  background-size:100% 110%;
-  -moz-background-size:100% 110%;
-  background-position: 50% 60%;
+  background-size:100% auto;
+  -moz-background-size:100% auto;
+  background-position: 50% 50%;
 }
 .feature8-title{
   color: #853117;
@@ -250,8 +250,8 @@
 .feature9-slide {
   background-image: url('../img/bj-12/bj-12.jpg');
   background-repeat:no-repeat;
-  background-size:100% 100%;
-  -moz-background-size:100% 100%;
+  background-size:100% auto;
+  -moz-background-size:100% auto;
 }
 .feature9-title{
   color: #fff;
@@ -303,8 +303,8 @@
 .feature10-slide {
   background-image: url('../img/bj-13/bj-14.jpg');
   background-repeat:no-repeat;
-  background-size:100% 100%;
-  -moz-background-size:100% 100%;
+  background-size:100% auto;
+  -moz-background-size:100% auto;
 }
 .feature10-title {
   color: #853117;
@@ -417,8 +417,8 @@
   bottom: 0;
   background-image: url('../img/bj-14/bj-15-5.jpg');
   background-repeat:no-repeat;
-  background-size:100% 150%;
-  -moz-background-size:100% 150%;
+  background-size:100% auto;
+  -moz-background-size:100% auto;
   padding-top: 6rem;
 }
 .feature11-footer>p {

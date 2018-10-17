@@ -1,8 +1,8 @@
 .chat-slide {
   background-image: url('../img/bj-6/bj-6.jpg');
   background-repeat:no-repeat;
-  background-size:100% 110%;
-  -moz-background-size:100% 110%;
+  background-size:100% auto;
+  -moz-background-size:100% auto;
 }
 
 .chat-slide .fp-tableCell {
@@ -49,6 +49,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
 #chat-list .doAnimate li.animated {
   -webkit-animation-delay: 1600ms;
   -webkit-animation-duration: 8000ms;

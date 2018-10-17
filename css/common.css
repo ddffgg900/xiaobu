@@ -127,12 +127,20 @@ header .content>a {
     padding-top: 80px;
     
 }
-
-.nav-menu>div {
-    padding-top: 2rem;
+.nav-menu.animatedShow {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+}
+.nav-menu.animatedHidden {
+    -webkit-animation-name: fadeOutUp;
+    animation-name: fadeOutUp;
+}
+.nav-menu>li {
+    
     width:80%;
     margin:auto;
     border-bottom: 1px solid #fff;
+    list-style:none;
 }
 
 .nav-menu .div {
@@ -144,7 +152,10 @@ header .content>a {
 
 .nav-menu a {
     color: #fff;
+    padding-top: 2rem;
+    width:100%;
     font-size: 1.2rem;
+    display: block;
 }
 
 .nav-menu a.lock {
@@ -639,6 +650,26 @@ footer .download-btn {
     to {
         opacity: 1;
         transform: none;
+    }
+}
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -100%, 0);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+@keyframes fadeOutUp {
+    from {
+        opacity: 1;
+        transform: none;
+    }
+    to {
+        opacity: 0;
+        transform: translate3d(0, -100%, 0);
     }
 }
 
