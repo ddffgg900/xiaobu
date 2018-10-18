@@ -4,10 +4,10 @@
   width: 100%;
   text-align: center;
   position: absolute;
-  top: 1rem;
+  top: 0;
 }
 .home-title1 {
-  padding-top: 2.4rem;
+  padding-top: 3.4rem;
   color: #853117;
   font-size: 1.5rem;
 }
