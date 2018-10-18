@@ -1,0 +1,521 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>小布</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+  <link rel="stylesheet" type="text/css" href="node_modules/swiper/dist/css/swiper.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/examples.css" />
+  <link rel="stylesheet" type="text/css" href="css/common.css" />
+  <link rel="stylesheet" type="text/css" href="vendor/modal/component.css" />
+  <link rel="stylesheet" type="text/css" href="css/index.css" />
+  <link rel="stylesheet" type="text/css" href="css/index.home.css" />
+  <link rel="stylesheet" type="text/css" href="css/index.video.css" />
+  <link rel="stylesheet" type="text/css" href="css/index.feature.css" />
+  <link rel="stylesheet" type="text/css" href="css/index.chat.css" />
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <nav class="nav-menu mobile-only hidden" id="myMenu">
+    <li data-menuanchor="home"><a class="lock" href="#home">小布首页</a></li>
+    <li data-menuanchor="production"><a href="#production">产品介绍</a></li>
+    <li data-menuanchor="feature1"><a href="#feature1">特色内容</a></li>
+    <li data-menuanchor="params1"><a href="#params1">产品参数</a></div>
+      <li data-menuanchor="download"><a href="#download">APP下载</a></li>
+      <li data-menuanchor="service"><a href="#service">售后服务</a></li>
+      <li data-menuanchor="about"><a href="#about">关于我们</a></li>
+  </nav>
+  <!-- <nav class="nav-menu mobile-only hidden">
+    <li data-menuanchor="home"><a class="lock">小布首页</a></li>
+    <li data-menuanchor="production"><a >产品介绍</a></li>
+    <li data-menuanchor="feature1"><a >特色内容</a></li>
+    <li data-menuanchor="params1"><a>产品参数</a></div>
+    <li data-menuanchor="download"><a >APP下载</a></li>
+    <li data-menuanchor="service"><a >售后服务</a></li>
+    <li data-menuanchor="about"><a >关于我们</a></li>
+  </nav> -->
+  <header>
+    <div class="content">
+      <div class="menu mobile-only">
+        <div class="menu-close-dot"></div>
+        <div class="menu-close-dot"></div>
+        <div class="menu-close-dot"></div>
+        <div class="menu-open-dot"></div>
+        <div class="menu-open-dot"></div>
+        <div class="menu-open-dot"></div>
+        <div class="menu-open-dot"></div>
+        <div class="menu-open-dot"></div>
+        <div class="menu-open-dot"></div>
+        <div class="menu-open-dot"></div>
+        <div class="menu-open-dot"></div>
+        <div class="menu-open-dot"></div>
+      </div>
+      <img src="img/header.png" />
+    </div>
+  </header>
+  <div class="swiper-container hidden" id="myContainer">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide home-slide">
+        <div class="home-content">
+          <h1 class="home-title1 animated">小布AI机器人</h1>
+          <h1 class="home-title2 animated" style="-webkit-animation-delay: 800ms; animation-delay: 800ms">外表萌萌哒<br/>智慧大大的</h1>
+          <h1 class="home-tag animated" style="-webkit-animation-delay: 1000ms; animation-delay: 1000ms">语聊互动 | 智慧启蒙课 | 内容点播<br/>百科问答 | 语音游戏</h1>
+          <h1 class="home-cash animated" style="-webkit-animation-delay: 1200ms; animation-delay: 1200ms">¥ 899</h1>
+          <div class="buynow animated" style="-webkit-animation-delay: 1400ms; animation-delay: 1400ms"></div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <span class="video-play md-trigger" style="-webkit-animation-delay: 800ms; animation-delay: 800ms" data-modal="modal-video"></span>
+        <div class="md-modal md-effect-1" id="modal-video">
+          <div class="md-close"></div>
+          <video controls playsinline>
+            <source src="img/video.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="md-overlay"></div>
+      </div>
+      <div class="swiper-slide  home2-slide">
+        <div class="home2-content">
+          <h1 class="home2-info animated">嗨~</h1>
+          <h1 class="home2-info animated" style="-webkit-animation-delay: 800ms; animation-delay: 800ms">你好！我叫小布！</h1>
+          <h1 class="home2-info animated" style="-webkit-animation-delay: 1000ms; animation-delay: 1200ms">我来自一个充满着知识</h1>
+          <h1 class="home2-info animated" style="-webkit-animation-delay: 1200ms; animation-delay: 1600ms">与趣味的神秘小岛，</h1>
+          <h1 class="home2-info animated" style="-webkit-animation-delay: 1400ms; animation-delay: 2000ms">我喜欢冒险，</h1>
+          <h1 class="home2-info animated" style="-webkit-animation-delay: 1600ms; animation-delay: 2400ms">我想要驾驶飞机探索</h1>
+          <h1 class="home2-info animated" style="-webkit-animation-delay: 1800ms; animation-delay: 2800ms">这个精彩世界，</h1>
+          <h1 class="home2-info animated" style="-webkit-animation-delay: 2000ms; animation-delay: 3200ms">今天，我就要来到</h1>
+          <h1 class="home2-info animated" style="-webkit-animation-delay: 2200ms; animation-delay: 3600ms">你的身边啦~</h1>
+
+        </div>
+      </div>
+    
+      <div class="swiper-slide  feature-slide">
+        <div class="feature-content">
+          <div class="feature-top animated">
+            <div style="background-image: url(./img/bj-3/bj-3-6.png)"></div>
+            <div style="background-image: url(./img/bj-3/bj-3-7.png)"></div>
+          </div>
+          <h1 class="feature-title animated" style="-webkit-animation-delay: 800ms; animation-delay: 800ms">绘本读不停 早教更轻松</h1>
+          <p class="feature-info animated" style="-webkit-animation-delay: 1000ms; animation-delay: 1000ms">
+            携手中国儿童原创绘本基地及书香校园<br/>提供国内精品的儿童绘本资源<br/>由国内专业的儿童阅读研究院<br/>师范大学的专家和一线院长与老师共同参与
+          </p>
+          <div class="feature-tag animated" style="-webkit-animation-delay: 1200ms; animation-delay: 1200ms">
+            <div style="background-image: url(./img/bj-3/bj-3-1.png)">
+              <div>认知</div>
+            </div>
+            <div style="background-image: url(./img/bj-3/bj-3-2.png)">
+              <div>逻辑</div>
+            </div>
+            <div style="background-image: url(./img/bj-3/bj-3-3.png)">
+              <div>心理健康</div>
+            </div>
+            <div style="background-image: url(./img/bj-3/bj-3-4.png)">
+              <div>社交行为</div>
+            </div>
+            <div style="background-image: url(./img/bj-3/bj-3-5.png)">
+              <div>语言表达</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="swiper-slide  feature2-slide">
+        <div class="feature-content">
+          <h1 class="feature2-title animated" style="-webkit-animation-delay: 800ms; animation-delay: 800ms">专属陪读小书童</h1>
+          <h1 class="feature2-info animated" style="-webkit-animation-delay: 1200ms; animation-delay: 1200ms">小布拥有多个版本的语文<br/>英语等学科教材<br/>陪伴孩子读完初中</h1>
+
+        </div>
+      </div>
+    
+      <div class="swiper-slide  feature3-slide">
+        <div class="feature-content">
+          <div class="feature3-top animated">
+            <div style="width:4rem; height:3rem; background-image: url(./img/bj-5/bj-5-1.png)"></div>
+            <div style="width:0.3rem; height: 3rem; border-left: 1px solid #9fa0a0"></div>
+            <div style="margin-top:0.5rem;width:9rem;height:2.2rem;background-image: url(./img/bj-5/bj-5-2.png)"></div>
+          </div>
+          <h1 class="feature3-title animated" style="-webkit-animation-delay: 1200ms; animation-delay: 1200ms">十万名师 百万好课</h1>
+          <p class="feature3-info animated" style="-webkit-animation-delay: 1600ms; animation-delay: 1600ms">
+            专属授权，喜马拉雅FM随意听<br/>喜马拉雅FM提供最强大的儿童音频内容<br/>支持喜马拉雅FM账号登录，及多设备的数据同步
+          </p>
+        </div>
+      </div>
+   
+      <div class="swiper-slide  chat-slide">
+        <div class="chat-content">
+          <h1 class="chat-title animated">全能语音小助手<br/>宝贝启蒙小老师</h1>
+          <div id="chat-list">
+            <ul>
+              <li class="animated">“小布小布，打开有声绘本剧场”</li>
+              <li class="animated">“小布小布，我想听抱抱绘本”</li>
+              <li class="animated">“小布小布，我想听好饿的毛毛虫”</li>
+              <li class="animated">“小布小布，我想听大卫不可以”</li>
+              <li class="animated">“小布小布，我想听菲菲生气了”</li>
+              <li class="animated">“小布小布，我想听我爸爸”</li>
+              <li class="animated">“小布小布，打开有声绘本剧场”</li>
+              <li class="animated">“小布小布，我想听抱抱绘本”</li>
+              <li class="animated">“小布小布，我想听好饿的毛毛虫”</li>
+              <li class="animated">“小布小布，我想听大卫不可以”</li>
+              <li class="animated">“小布小布，我想听菲菲生气了”</li>
+              <li class="animated">“小布小布，我想听我爸爸”</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    
+      <div class="swiper-slide  feature4-slide">
+        <div class="feature-content">
+          <h1 class="feature4-title animated">13年的陪伴<br/>为孩子打好一生的基础</h1>
+          <div class="feature4-info animated" style="-webkit-animation-delay: 800ms; animation-delay: 800ms">
+            <div class="feature4-line">
+              <div class="feature4-box" style="background-image: url(./img/bj-7/bj-7-1.png)"></div>
+              <div class="feature4-box" style="background-image: url(./img/bj-7/bj-7-2.png)"></div>
+            </div>
+            <div class="feature4-line">
+              <div class="feature4-box" style="background-image: url(./img/bj-7/bj-7-3.png)"></div>
+              <div class="feature4-box" style="background-image: url(./img/bj-7/bj-7-4.png)"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="swiper-slide  feature5-slide">
+        <div class="feature5-content">
+          <h1 class="feature5-title animated">有声启蒙课<br/>伴你健康成长</h1>
+          <p class="feature5-info animated" style="-webkit-animation-delay: 800ms; animation-delay: 800ms">更多有趣的内容,等你来发现</p>
+          <div class="feature5-tag animated" style="-webkit-animation-delay: 1400ms; animation-delay: 1400ms">
+            <div></div>
+            <p>喜马拉雅联合开发，支持喜马拉雅 FM 账号登录</p>
+          </div>
+        </div>
+      </div>
+   
+      <div class="swiper-slide  feature6-slide">
+        <div class="feature-content">
+          <h1 class="feature3-title animated">小布的优质<br/>有声内容合作伙伴</h1>
+          <div class="feature6-tag animated" style="-webkit-animation-delay: 800ms; animation-delay: 800ms"></div>
+        </div>
+      </div>
+    
+      <div class="swiper-slide  feature7-slide">
+        <div class="feature5-content">
+          <h1 class="feature5-title animated">产品清单</h1>
+          <p class="feature5-info animated">小布AI机器人X1&nbsp;&nbsp;说明书X1<br/>充电器X1&nbsp;&nbsp;产品合格证X1</p>
+          <div class="feature7-footer animated">
+            <p>食品级材质，食用级硅胶+ABS材质<br/>通过3C认证和ROSH认证，符合欧盟环保标准<br/>抗摔，不怕啃咬误食</p>
+          </div>
+        </div>
+      </div>
+   
+      <div class="swiper-slide  feature8-slide">
+        <div class="feature-content">
+          <h1 class="feature8-title animated">产品清单</h1>
+          <p class="feature8-info animated" style="-webkit-animation-delay: 800ms; animation-delay: 800ms">产品名称: 小布AI机器人</p>
+          <p class="feature8-info animated" style="-webkit-animation-delay: 1000ms; animation-delay: 1000ms">产品类型: 智能音箱</p>
+          <p class="feature8-info animated" style="-webkit-animation-delay: 1200ms; animation-delay: 1200ms">产品型号: XiaoBu</p>
+          <p class="feature8-info animated" style="-webkit-animation-delay: 1400ms; animation-delay: 1400ms">额定功率: 10W</p>
+          <p class="feature8-info animated" style="-webkit-animation-delay: 1600ms; animation-delay: 1600ms">频率响应: 80Hz~15kHz</p>
+          <p class="feature8-info animated" style="-webkit-animation-delay: 1800ms; animation-delay: 1800ms">信噪比: 80dB</p>
+          <p class="feature8-info animated" style="-webkit-animation-delay: 2000ms; animation-delay: 2000ms">输入方式: 2.4G Wi-Fi/BT</p>
+          <p class="feature8-info animated" style="-webkit-animation-delay: 2200ms; animation-delay: 2200ms">麦克风: 4数字硅麦</p>
+          <p class="feature8-info animated" style="-webkit-animation-delay: 2400ms; animation-delay: 2400ms">净重: 750g</p>
+          <p class="feature8-info animated" style="-webkit-animation-delay: 2600ms; animation-delay: 2600ms">尺寸: 141mm x 136mm x 140mm</p>
+          <p class="feature8-info animated" style="-webkit-animation-delay: 2800ms; animation-delay: 2800ms">电源输入: DC 12V/1A（100V-240V)</p>
+          <p class="feature8-info animated" style="-webkit-animation-delay: 3000ms; animation-delay: 3000ms">供电方式: 适配器供电，电池供电</p>
+          <p class="feature8-info animated" style="-webkit-animation-delay: 3200ms; animation-delay: 3200ms">电池容量: 2000mAh</p>
+        </div>
+      </div>
+   
+      <div class="swiper-slide  feature9-slide">
+        <div class="feature-content">
+          <h1 class="feature9-title animated">小布AI机器人·APP下载</h1>
+          <div class="feature9-fhone animated"></div>
+        </div>
+        <footer class="fadeInUp__full animated">
+          <div class="feature9-tag">
+            <a href="https://itunes.apple.com/cn/app/id1382579721?mt=8" style="background-image: url(./img/bj-12/bj-12-1.png)">
+              <div>IOS系统</div>
+            </a>
+            <a href="https://sj.qq.com/myapp/detail.htm?apkName=com.freebox.xiaobu" style="background-image: url(./img/bj-12/bj-12-2.png)">
+              <div>安卓系统</div>
+            </a>
+          </div>
+        </footer>
+      </div>
+    
+      <div class="swiper-slide  feature10-slide">
+        <div class="feature-content">
+          <h1 class="feature10-title animated">售后服务</h1>
+          <div class="feature10-info animated" style="-webkit-animation-delay: 800ms; animation-delay: 800ms">
+            <div class="feature10-info-tag" style="background-image: url(./img/bj-13/bj-14-2.png)">
+              <div>7天退货</div>
+            </div>
+            <div class="feature10-info-desc">
+              在商品签收7天内，出现非人为损坏造成的质量问题，可免费退换货.<br/>退货时，赠品需一并退回,否则无法处理.
+            </div>
+            <div class="feature10-info-tag" style="background-image: url(./img/bj-13/bj-14-3.png)">
+              <div>15天换货</div>
+            </div>
+            <div class="feature10-info-desc">
+              在商品签收15天内，出现非人为损坏造成的质量问题，配件齐全，免费换货.
+            </div>
+            <div class="feature10-info-tag" style="background-image: url(./img/bj-13/bj-14-4.png)">
+              <div>一年保修</div>
+            </div>
+            <div class="feature10-info-desc">
+              一年保修期内，如出现非人为损坏造成的质量问题，商家免费进行维修,换新主机或配件
+            </div>
+          </div>
+        </div>
+        <footer class="fadeInUp__full animated">
+          <div class="feature10-tag">
+            <p>通过扫描小布AI机器人公众号，获取更多小布同学信息哦！</p>
+            <img data-src="./img/bj-13/bj-14-1.png">
+            <p>关注公众号</p>
+
+          </div>
+        </footer>
+      </div>
+   
+      <div class="swiper-slide  feature11-slide">
+        <div class="feature11-content animated">
+          <div class="feature11-line1">
+            <div style="width:7rem; height:3rem; background-image: url(./img/bj-14/bj-15-6.png)"></div>
+            <div style=" height: 3rem; border-left: 1px solid #9fa0a0"></div>
+            <div style="width:4rem;height:3.3rem;background-image: url(./img/bj-14/bj-15-7.png)"></div>
+          </div>
+          <div class="feature10-info-tag" style="background-image: url(./img/bj-14/bj-15-1.png)">
+            <div>商务合作</div>
+          </div>
+          <div class="feature10-info-desc">
+            联系电话: 郭女士 138-1665-6402<br/>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (周一至周五9:30-18:00)<br/>工作邮箱: carrie.guo@freeboxgame.com
+          </div>
+          <div class="feature11-line2">
+          </div>
+          <div class="feature10-info-tag" style="background-image: url(./img/bj-14/bj-15-2.png)">
+            <div>招贤纳士</div>
+          </div>
+          <div class="feature10-info-desc">
+            联系电话: 座机 021-60752307<br/>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 艾女士 182-5662-2087<br/>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (周一至周五9:30-18:00)<br/>联系我们: aijing@freeboxgame.com
+          </div>
+          <div class="feature11-line2">
+          </div>
+          <div class="feature10-info-tag" style="background-image: url(./img/bj-14/bj-15-2.png)">
+            <div>联系我们</div>
+          </div>
+          <div class="feature10-info-desc">
+            地址: 上海市徐汇区桂平路471号9号楼402室<br/>邮箱: cathy.wang@freeboxgame.com<br/>&nbsp; &nbsp; &nbsp; &nbsp; elaine.zhang@freeboxgame.com
+          </div>
+          <div class="feature11-footer">
+            <p>2018 @ 飞盒 保留所有权利</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+
+  <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="node_modules/swiper/dist/js/swiper.min.js"></script>
+  <script type="text/javascript" src="vendor/modal/modalEffects.js"></script>
+  <script type="text/javascript" src="vendor/modal/classie.js"></script>
+
+  <script>
+    // 隐藏返回前进按钮
+    function onBridgeReady() {
+      WeixinJSBridge.call('hideToolbar');
+    }
+
+    if (typeof WeixinJSBridge == "undefined") {
+      if (document.addEventListener) {
+        document.addEventListener('WeixinJSBridgeReady', onBridgeReady, false);
+      } else if (document.attachEvent) {
+        document.attachEvent('WeixinJSBridgeReady', onBridgeReady);
+        document.attachEvent('onWeixinJSBridgeReady', onBridgeReady);
+      }
+    } else {
+      onBridgeReady();
+    }
+    // 隐藏返回前进按钮
+    var imgs = [
+
+    ];
+    $(document).ready(function() {
+      $('#myContainer').removeClass('hidden');
+      $('.menu').click(function(e) {
+        var el = $(e.target);
+        $('.nav-menu').toggleClass('hidden');
+        $('.menu').toggleClass('show');
+      });
+      $('.nav-menu>li').click(function(e) {
+        // $.fn.fullpage.moveTo(e.currentTarget.attributes[0].nodeValue)
+        setTimeout(function() {
+            $('.nav-menu').toggleClass('hidden');
+            $('.menu').toggleClass('show');
+
+          }, 300)
+          // window.location.reload();
+      })
+      var mySwiper = new Swiper ('.swiper-container', {
+        direction: 'vertical', // 垂直切换选项
+        loop: true, // 循环模式选项
+        
+        // 如果需要分页器
+        pagination: {
+          el: '.swiper-pagination',
+        },
+        
+        // 如果需要前进后退按钮
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        
+        // 如果需要滚动条
+        scrollbar: {
+          el: '.swiper-scrollbar',
+        },
+      })        
+      //  有声绘本
+      var chat_list = $("#chat-list")
+      var ul = chat_list.find("ul");
+      var ul2 = $("<ul />");
+      var lis = chat_list.find("li");
+      var anObj = {
+        delay: 1000,
+        pageDelay: 1000,
+        duration: 8000
+      };
+      var timeTotal = lis.length * anObj.delay;
+
+      lis.each(function(i) {
+        var li = $(this);
+
+        li.attr(
+          "style",
+          "-webkit-animation-delay:" + (anObj.delay * i) + "ms;" +
+          "animation-delay:" + (anObj.delay * i) + "ms;"
+        )
+      });
+      ul2.html(ul.html()).appendTo(chat_list);
+
+      var playChatList = function() {
+        ul.addClass('doAnimate');
+
+        setTimeout(function() {
+          ul2.removeClass('doAnimate');
+        }, anObj.duration - anObj.delay)
+
+        setTimeout(function() {
+          ul2.addClass('doAnimate');
+
+          setTimeout(function() {
+            ul.removeClass('doAnimate');
+          }, anObj.duration - anObj.delay)
+        }, timeTotal);
+      }
+
+      setTimeout(function() {
+        playChatList();
+
+        setInterval(function() {
+          playChatList();
+        }, timeTotal * 2)
+      }, anObj.pageDelay);
+
+
+      // ===== 介绍视频 =====
+      $('.section-video .video-play').click(function(e) {
+        /* var bgVideo = $('.section-video .fullscreen-bg video')[0];
+        bgVideo.pause(); */
+        var video = $('#modal-video video')[0];
+
+        if (!video.paused) return
+        video.play();
+      });
+
+      var timer;
+      $(window).on('resize', function() {
+        if (timer) {
+          clearTimeout(timer);
+          timer = null;
+        }
+
+        timer = setTimeout(function() {
+          var $modal = $('#modal-video');
+          var video = $modal.find('video')[0];
+
+          if ($modal.is(".md-show") && video.paused) {
+            video.play();
+          }
+        }, 500)
+      });
+
+      // $('.mobile-only .video-play-mobile').click(function(e) {
+      //   var video = $(this).find('video')[0];
+      //   var icon = $(this).find('.play-icon');
+      //   if (video.paused) {
+      //     video.play();
+      //     icon.hide();
+      //   } else {
+      //     video.pause();
+      //     icon.show();
+      //   }
+      // });
+      /* $('.md-overlay').click(function(e) {
+        var bgVideo = $('.section-video .fullscreen-bg video')[0];
+        var winWidth = $(window).width();
+
+        if (bgVideo && winWidth > 767) {
+          bgVideo.load();
+          bgVideo.play();
+        }
+      }); */
+      // ===== 介绍视频 END =====
+
+      // ===== 麦克风 =====
+      /* window.video_status = {};
+
+      $('.video-fullbg').on('ended', function() {
+
+        var $this = $(this);
+        var $slide = $this.parents('.slide');
+        var id = $this.attr('id');
+
+        if (video_status[id]) return;
+
+        // show test
+        $slide.find('.animated').removeClass('invisible');
+
+        // play video
+        var videoLoop = $this.siblings(".video-fullbg-loop");
+        var videoCover = $this.siblings(".video-fullbg__cover");
+
+        if (videoLoop.length > 0) {
+          $(this).remove();
+          videoLoop.removeClass('invisible');
+          videoLoop[0].play();
+        }
+        if (videoCover.length > 0) {
+          $(this).remove();
+          videoCover.removeClass('invisible');
+        }
+
+        video_status[id] = true;
+      });
+      */ // ===== 麦克风 END =====
+    });
+  </script>
+
+</body>
+
+</html>

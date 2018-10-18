@@ -50,6 +50,7 @@
       <img src="img/header.png" />
     </div>
   </header>
+  <div id = "loading"></div>
   <div class="hidden" id="myContainer">
     <div class="section">
       <div class="slide home-slide">
@@ -327,19 +328,11 @@
         
       </div>
     </div>
-    
-
-  <script src="https://s13.cnzz.com/z_stat.php?id=1262360432&web_id=1262360432" language="JavaScript"></script>
-
-  </div>
-
-  </div>
-
   </div>
 
   <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.preload.js"></script>
   <script type="text/javascript" src="node_modules/fullpage.js/dist/fullpage.min.js"></script>
-  <script type="text/javascript" src="js/easings.min.js"></script>
   <script type="text/javascript" src="vendor/modal/modalEffects.js"></script>
   <script type="text/javascript" src="vendor/modal/classie.js"></script>
   
@@ -348,7 +341,7 @@
    
     
     // 隐藏返回前进按钮
-    var imgs = [
+    var imgs = ['img/bj-1/bj-1.jpg', 'img/bj-1/lijigoumai.png', 'img/bj-2/Bj-1.png', 'img/bj-2/Bj-2.png', 'img/bj-3/bj-3.jpg', 'img/bj-3/bj-3-1.png', 'img/bj-3/bj-3-2.png', 'img/bj-3/bj-3-3.png', 'img/bj-3/bj-3-4.png', 'img/bj-3/bj-3-5.png', 'img/bj-3/bj-3-6.png', 'img/bj-3/bj-3-7.png', 'img/bj-4/bj-4.jpg', 'img/bj-5/bj-5-1.png', 'img/bj-5/bj-5-2.png', 'img/bj-6/bj-6.jpg', 'img/bj-7/bj-7.jpg', 'img/bj-7/bj-7-1.png', 'img/bj-7/bj-7-2.png', 'img/bj-7/bj-7-3.png', 'img/bj-7/bj-7-4.png', 'img/bj-8/bj-8-1.png', 'img/bj-9/bj-9-1.png', 'img/bj-11/bj-11.jpg', 'img/bj-12/bj-12.jpg', 'img/bj-12/bj-12-1.png', 'img/bj-12/bj-12-2.png', 'img/bj-13/bj-14-1.png', 'img/bj-13/bj-14-2.png', 'img/bj-13/bj-14-3.png', 'img/bj-13/bj-14-4.png', 'img/bj-13/bj-14-5.png', 'img/bj-13/bj-14-2.png', 'img/bj-14/bj-15-1.png', 'img/bj-14/bj-15-2.png', 'img/bj-14/bj-15-4.png', 'img/bj-14/bj-15-5.png', 'img/bj-14/bj-15-6.png', 'img/bj-14/bj-15-7.png'
 
     ];
     $(document).ready(function() {
@@ -361,7 +354,7 @@
         }
       }
       
-      $('#myContainer').removeClass('hidden');
+      
       $('.menu').click(function(e) {
         var el = $(e.target);
         $('.nav-menu').toggleClass('hidden');
@@ -372,37 +365,37 @@
         setTimeout(function(){
           $('.nav-menu').toggleClass('hidden');
           $('.menu').toggleClass('show');
-
+          $.fn.fullpage.reBuild();
         }, 300)
         // window.location.reload();
       })
-      $('#myContainer').fullpage({
-        licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
-        // continuousHorizontal: true,
-        // continuousHorizontalKey: "dG1hbGwuY29tX0diQ1kyOXVkR2x1ZFc5MWMwaHZjbWw2YjI1MFlXdz1ZeHQ=",
-        slidesNavigation: true,
-        anchors: ["home", "video", "production", "feature1", "feature2", "feature3", "feature4", "feature5", "feature6", "feature7", "params1", "params2",  "download", "service",  "about"],
-        // loopHorizontal: false,
-        recordHistory: false,
-        controlArrows: false,
-        navigation: false,
-        navigationPosition: 'right',
-        scrollOverflow: false,
-        scrollingSpeed: 800,
-        fitToSectionDelay: 800,
-        animateAnchor:false,
-        css3: true,
-        /* afterLoad: function() {
-          var video = $('.fp-section.active .fullscreen-bg video')[0];
-          var winWidth = $(window).width();
-
-          if (video && winWidth > 767) {
-            video.load();
-            video.play();
+      $.preload(imgs, {
+          minTimer: 3000,
+          
+          // 加载完所有的图片执行的方法
+          end: function () {
+            $('#loading').toggleClass('hidden');
+            $('#myContainer').toggleClass('hidden');
+            $('#myContainer').fullpage({
+              licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
+              // continuousHorizontal: true,
+              // continuousHorizontalKey: "dG1hbGwuY29tX0diQ1kyOXVkR2x1ZFc5MWMwaHZjbWw2YjI1MFlXdz1ZeHQ=",
+              slidesNavigation: true,
+              anchors: ["home", "video", "production", "feature1", "feature2", "feature3", "feature4", "feature5", "feature6", "feature7", "params1", "params2",  "download", "service",  "about"],
+              // loopHorizontal: false,
+              recordHistory: false,
+              controlArrows: false,
+              navigation: false,
+              navigationPosition: 'right',
+              scrollOverflow: false,
+              scrollingSpeed: 800,
+              fitToSectionDelay: 800,
+              animateAnchor:false,
+              css3: true
+            });
           }
-        }, */
       });
-    
+     
       //  有声绘本
       var chat_list = $("#chat-list")
       var ul = chat_list.find("ul");

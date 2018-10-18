@@ -688,3 +688,15 @@ footer .download-btn {
     -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
 }
+
+#loading {
+  position: relative;
+  margin: auto;
+  width:8rem;
+  height:10rem;
+  top: 18rem;
+  background-image: url('../img/loading.png');
+  background-repeat:no-repeat;
+  background-size:100% auto;
+  -moz-background-size:100% auto;
+}
