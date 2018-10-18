@@ -72,16 +72,17 @@
 }
 .home2-info {
   color: #fff;
-  font-size: 1.2rem;
-  line-height: 2.2rem;
+  font-size: 1.1rem;
+  line-height: 1.8rem;
 }
 .home2-slide {
   background: #fdd244;
 }
 .home2-back {
   position: absolute;
-  top:-1rem;
-  width:100%;
+  left:9%;
+  top:0rem;
+  width:82%;
   height:100%;
   background-image: url('../img/bj-2/Bj-1.png');
   background-repeat:no-repeat;
