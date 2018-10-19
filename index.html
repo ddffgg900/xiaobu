@@ -50,7 +50,14 @@
       <img src="img/header.png" />
     </div>
   </header>
-  <div id = "loading"></div>
+  <div id = "loading">
+    <div class="loading-xiaobu">
+      <div></div>
+    </div>
+    <div class="loading-q">
+      <div></div>
+    </div>
+  </div>
   <div class="hidden" id="myContainer">
     <div class="section">
       <div class="slide home-slide">
@@ -69,7 +76,8 @@
         <div class="md-modal md-effect-1" id="modal-video">
           <div class="md-close"></div>
           <video controls playsinline>
-            <source src="img/video.mp4" type="video/mp4">
+            <source id="video-source"  type="video/mp4">
+              <!-- src="img/video.mp4" -->
           </video>
         </div>
         <div class="md-overlay"></div>
@@ -89,7 +97,7 @@
           <h1 class="home2-info animated"style="-webkit-animation-delay: 2000ms; animation-delay: 3200ms">今天，我就要来到</h1>
           <h1 class="home2-info animated"style="-webkit-animation-delay: 2200ms; animation-delay: 3600ms">你的身边啦~</h1>
           <div class="home2-footer">
-            <p>小巧可爱的外形设计 来自<br/>腾讯动漫动画 IP 《甘布大冒险》</p>
+            <!-- <p>小巧可爱的外形设计 来自<br/>腾讯动漫动画 IP 《甘布大冒险》</p> -->
             <div></div>
           </div>
         </div>
@@ -143,11 +151,12 @@
             <div style="width:0.3rem; height: 3rem; border-left: 1px solid #9fa0a0"></div>
             <div style="margin-top:0.5rem;width:9rem;height:2.2rem;background-image: url(./img/bj-5/bj-5-2.png)"></div>
           </div>
+          <div class="feature3-footer animated" style="-webkit-animation-delay: 2000ms; animation-delay: 2000ms"></div>
           <h1 class="feature3-title animated" style="-webkit-animation-delay: 1200ms; animation-delay: 1200ms">十万名师 百万好课</h1>
           <p class="feature3-info animated" style="-webkit-animation-delay: 1600ms; animation-delay: 1600ms">
             专属授权，喜马拉雅FM随意听<br/>喜马拉雅FM提供最强大的儿童音频内容<br/>支持喜马拉雅FM账号登录，及多设备的数据同步
           </p>
-          <div class="feature3-footer animated" style="-webkit-animation-delay: 2000ms; animation-delay: 2000ms"></div>
+          
         </div>
       </div>
     </div>
@@ -230,7 +239,7 @@
           <h1 class="feature8-title animated">产品清单</h1>
           <p class="feature8-info animated" style="-webkit-animation-delay: 800ms; animation-delay: 800ms">产品名称: 小布AI机器人</p>
           <p class="feature8-info animated" style="-webkit-animation-delay: 1000ms; animation-delay: 1000ms">产品类型: 智能音箱</p>
-          <p class="feature8-info animated" style="-webkit-animation-delay: 1200ms; animation-delay: 1200ms">产品型号: XiaoBu</p>
+          <p class="feature8-info animated" style="-webkit-animation-delay: 1200ms; animation-delay: 1200ms">产品型号: XiaoBu-001</p>
           <p class="feature8-info animated" style="-webkit-animation-delay: 1400ms; animation-delay: 1400ms">额定功率: 10W</p>
           <p class="feature8-info animated" style="-webkit-animation-delay: 1600ms; animation-delay: 1600ms">频率响应: 80Hz~15kHz</p>
           <p class="feature8-info animated" style="-webkit-animation-delay: 1800ms; animation-delay: 1800ms">信噪比: 80dB</p>
@@ -310,7 +319,7 @@
             <div>商务合作</div>
           </div>
           <div class="feature10-info-desc">
-            联系电话: 郭女士 138-1665-6402<br/>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; (周一至周五9:30-18:00)<br/>工作邮箱: carrie.guo@freeboxgame.com
+            <!-- 联系电话: 郭女士 138-1665-6402<br/>&nbsp; &nbsp; &nbsp; &nbsp; --> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (周一至周五9:30-18:00)<br/>工作邮箱: carrie.guo@freeboxgame.com
           </div>
           <div class="feature11-line2">
           </div>
@@ -318,7 +327,7 @@
             <div>招贤纳士</div>
           </div>
           <div class="feature10-info-desc">
-            联系电话: 座机 021-60752307<br/>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; 艾女士 182-5662-2087<br/>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; (周一至周五9:30-18:00)<br/>联系我们: aijing@freeboxgame.com
+            联系电话: 座机 021-60752307<!-- <br/>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; 艾女士 182-5662-2087--><br/>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; (周一至周五9:30-18:00)<br/> 联系我们: aijing@freeboxgame.com
           </div>
           <div class="feature11-line2">
           </div>
@@ -326,7 +335,7 @@
             <div>联系我们</div>
           </div>
           <div class="feature10-info-desc">
-            地址: 上海市徐汇区桂平路471号9号楼402室<br/>邮箱: cathy.wang@freeboxgame.com<br/>&nbsp; &nbsp; &nbsp; &nbsp; elaine.zhang@freeboxgame.com
+            地址: 上海市徐汇区桂平路471号9号楼402室<br/>邮箱: cathy.wang@freeboxgame.com<br/>&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; elaine.zhang@freeboxgame.com
           </div>
           <div class="feature11-footer">
             <p>2018 @ 飞盒 保留所有权利</p>
@@ -348,7 +357,7 @@
    
     
     // 隐藏返回前进按钮
-    var imgs = ['img/bj-1/bj-1.jpg','img/bj-1/bj-1-1.png', 'img/bj-1/lijigoumai.png', 'img/bj-2/Bj-1.png', 'img/bj-2/Bj-2.png', 'img/bj-3/bj-3.jpg', 'img/bj-3/bj-3-1.png', 'img/bj-3/bj-3-2.png', 'img/bj-3/bj-3-3.png', 'img/bj-3/bj-3-4.png', 'img/bj-3/bj-3-5.png', 'img/bj-3/bj-3-6.png', 'img/bj-3/bj-3-7.png', 'img/bj-4/bj-4.jpg', 'img/bj-5/bj-5-1.png', 'img/bj-5/xiaobu-1.png',  'img/bj-5/bj-5-2.png', 'img/bj-6/bj-6.jpg', 'img/bj-7/bj-7.jpg', 'img/bj-7/bj-7-1.png', 'img/bj-7/bj-7-2.png', 'img/bj-7/bj-7-3.png', 'img/bj-7/bj-7-4.png', 'img/bj-8/bj-8-1.png', 'img/bj-8/bj-8-2.png', 'img/bj-9/bj-9-1.png', 'img/bj-10/bj-10-1.png', 'img/bj-11/bj-11.jpg', 'img/bj-12/bj-12.jpg', 'img/bj-12/bj-12-1.png', 'img/bj-12/bj-12-2.png', 'img/bj-12/bj-12-4.png', 'img/bj-13/bj-14.jpg', 'img/bj-13/bj-14-1.png', 'img/bj-13/bj-14-2.png', 'img/bj-13/bj-14-3.png', 'img/bj-13/bj-14-4.png', 'img/bj-13/bj-14-5.png', 'img/bj-13/bj-14-2.png', 'img/bj-14/bj-15-1.png', 'img/bj-14/bj-15-2.png', 'img/bj-14/bj-15-4.png', 'img/bj-14/bj-15-5_02.png', 'img/bj-14/bj-15-6.png', 'img/bj-14/bj-15-7.png', 'img/video.jpg'
+    var imgs = ['img/loading.png', 'img/bj-1/bj-1.jpg','img/bj-1/bj-1-1.png', 'img/bj-1/lijigoumai.png', 'img/bj-2/Bj-1.png', 'img/bj-2/Bj-2.png', 'img/bj-3/bj-3.jpg', 'img/bj-3/bj-3-1.png', 'img/bj-3/bj-3-2.png', 'img/bj-3/bj-3-3.png', 'img/bj-3/bj-3-4.png', 'img/bj-3/bj-3-5.png', 'img/bj-3/bj-3-6.png', 'img/bj-3/bj-3-7.png', 'img/bj-4/bj-4.jpg', 'img/bj-5/bj-5-1.png', 'img/bj-5/xiaobu-1.png',  'img/bj-5/bj-5-2.png', 'img/bj-6/bj-6.jpg', 'img/bj-7/bj-7.jpg', 'img/bj-7/bj-7-1.png', 'img/bj-7/bj-7-2.png', 'img/bj-7/bj-7-3.png', 'img/bj-7/bj-7-4.png', 'img/bj-8/bj-8-1.png', 'img/bj-8/bj-8-2.png', 'img/bj-9/bj-9-1.png', 'img/bj-10/bj-10-1.png', 'img/bj-11/bj-11.jpg', 'img/bj-12/bj-12.jpg', 'img/bj-12/bj-12-1.png', 'img/bj-12/bj-12-2.png', 'img/bj-12/bj-12-4.png', 'img/bj-13/bj-14.jpg', 'img/bj-13/bj-14-1.png', 'img/bj-13/bj-14-2.png', 'img/bj-13/bj-14-3.png', 'img/bj-13/bj-14-4.png', 'img/bj-13/bj-14-5.png', 'img/bj-13/bj-14-2.png', 'img/bj-14/bj-15-1.png', 'img/bj-14/bj-15-2.png', 'img/bj-14/bj-15-4.png', 'img/bj-14/bj-15-5_02.png', 'img/bj-14/bj-15-6.png', 'img/bj-14/bj-15-7.png', 'img/video.jpg'
 
     ];
     $(document).ready(function() {
@@ -452,6 +461,7 @@
 
 
       // ===== 介绍视频 =====
+      $('#video-source')[0].src = 'img/video.mp4';
       $('.section-video .video-play').click(function(e) {
         /* var bgVideo = $('.section-video .fullscreen-bg video')[0];
         bgVideo.pause(); */
