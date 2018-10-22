@@ -31,20 +31,20 @@
 .feature-title {
   color: #fff;
   font-size: 1.4rem;
-  margin-top: 0.6rem;
+  margin-top: 1rem;
 }
 
 .feature-info {
   color: #fff;
   font-size: 0.9rem;
-  margin-top: 0.6rem;
-  line-height: 1.6rem;
+  margin-top: 1rem;
+  line-height: 1.8rem;
 }
 
 .feature-tag  {
   display: flex;
   justify-content: center;
-  margin-top: 0.7rem
+  margin-top: 1rem
 }
 .feature-tag>div {
   width: 2.8rem;
@@ -66,7 +66,6 @@
 .feature2-slide {
   background-image: url('../img/bj-4/bj-4.jpg');
   /* background-image: url('../img/test1.jpg'); */
-  background-repeat:repeat-y;
   background-size:100% auto;
   -moz-background-size:100% auto;
   background-position: 50% 50%;
@@ -74,13 +73,13 @@
 .feature2-title{
   color: #853117;
   font-size: 1.5rem;
-  margin-top: 0.6rem;
+  margin-top: 6rem;
 }
 .feature2-info{
   color: #853117;
-  font-size: 1rem;
-  line-height: 1.9rem;
-  margin-top: 0.6rem;
+  font-size: 1.1rem;
+  line-height: 2rem;
+  margin-top: 1.5rem;
 }
 
 .feature3-slide {
@@ -118,7 +117,12 @@
   position: absolute;
   bottom: 0;
   width:100%;
-  height:55%;
+  
+}
+.feature3-footer>div {
+  width:20rem;
+  height: 21rem;
+  margin: auto;
   background-image: url('../img/bj-5/xiaobu-1.png');
   background-repeat:no-repeat;
   background-size:100% auto;
@@ -169,17 +173,22 @@
   color: #853117;
   font-size: 1.4rem;
   position: relative;
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 .feature5-back{
   position: relative;
   background-image: url('../img/bj-8/bj-8-2.png');
   margin: auto;
-  width:  8rem;
-  height: 10rem;
+  width:  12rem;
+  height: 50%;
   background-repeat:no-repeat;
   background-size:100% auto;
   -moz-background-size:100% auto;
+}
+@media (max-height: 568px)  {
+  .feature5-back {
+    width: 8rem;
+  }
 }
 .feature5-info {
   color: #853117;
@@ -199,8 +208,8 @@
 .feature5-tag>div {
   background-image: url('../img/bj-8/bj-8-1.png');
   margin: auto;
-  width:  20rem;
-  height: 16rem;
+  width:  19rem;
+  height: 15rem;
   background-repeat:no-repeat;
   background-size:100% auto;
   -moz-background-size:100% auto;
