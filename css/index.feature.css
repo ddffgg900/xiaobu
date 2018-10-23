@@ -31,12 +31,12 @@
 .feature-title {
   color: #fff;
   font-size: 1.4rem;
-  margin-top: 1rem;
+  margin-top: 1.2rem;
 }
 
 .feature-info {
   color: #fff;
-  font-size: 0.9rem;
+  font-size: 1rem;
   margin-top: 1rem;
   line-height: 1.8rem;
 }
@@ -47,8 +47,8 @@
   margin-top: 1rem
 }
 .feature-tag>div {
-  width: 2.8rem;
-  height: 2.8rem;
+  width: 3rem;
+  height: 3rem;
   margin-left: 0.7rem; 
   margin-right: 0.7rem; 
   background-repeat:no-repeat;
@@ -56,11 +56,11 @@
   -moz-background-size:100% 100%;
 }
 .feature-tag>div>div {
-  width: 3.8rem;
+  width: 4rem;
   margin-left: -0.5rem;
-  margin-top: 3.3rem;
+  margin-top: 3.5rem;
   color:  #fff;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 .feature2-slide {
@@ -93,13 +93,13 @@
 .feature3-title{
   color: #853117;
   font-size: 1.5rem;
-  margin-top: 0.9rem;
+  margin-top: 1rem;
 }
 .feature3-info{
   color: #853117;
-  font-size: 0.9rem;
-  line-height: 1.6rem;
-  margin-top: 0.6rem;
+  font-size: 1rem;
+  line-height: 1.8rem;
+  margin-top: 0.8rem;
 }
 .feature3-top {
   display: flex;
@@ -192,7 +192,7 @@
 }
 .feature5-info {
   color: #853117;
-  font-size: 0.9rem;
+  font-size: 1rem;
   margin-top: 1rem;
   margin-bottom: 0.5rem;
   position: relative;
@@ -245,6 +245,12 @@
   -moz-background-size:100% auto;
   background-position: 50% 50%;
 } */
+.feature7-title {
+  color: #853117;
+  font-size: 1.4rem;
+  position: relative;
+  margin-top: 5rem;
+}
 .feature7-footer {
   background: #f6ae36;
   bottom: 0rem;
@@ -261,18 +267,17 @@
   background-image: url('../img/bj-10/bj-10-1.png');
   margin: auto;
   margin-top: 2rem;
-  width:  20rem;
-  height: 15rem;
+  width:  90%;
+  height: 100%;
   background-repeat:no-repeat;
-  background-size:100% 100%;
-  -moz-background-size:100% 100%;
+  background-size:100% auto;
+  -moz-background-size:100% auto;
 }
 .feature8-slide {
   background-image: url('../img/bj-11/bj-11.jpg');
   background-repeat:no-repeat;
   background-size:100% auto;
   -moz-background-size:100% auto;
-  background-position: 50% 50%;
 }
 .feature8-title{
   color: #853117;
@@ -281,7 +286,7 @@
 }
 .feature8-info{
   color: #853117;
-  font-size: 0.9rem;
+  font-size: 1rem;
   margin-top: 0.4rem;
   text-align: left;
   margin-left: 5.5rem;
@@ -406,7 +411,7 @@
 .feature10-tag>p {
   margin: auto;
   color:  #853117;
-  font-size: 0.8rem;
+  font-size: 1rem;
   line-height: 1.4rem;
 }
 .feature10-tag>img {
@@ -463,6 +468,6 @@
 }
 .feature11-footer>p {
   color:  #853117;
-  font-size: 0.8rem;
+  font-size: 1rem;
   margin: auto;
 }
