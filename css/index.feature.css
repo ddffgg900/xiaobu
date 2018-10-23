@@ -70,16 +70,38 @@
   -moz-background-size:100% auto;
   background-position: 50% 50%;
 }
-.feature2-title{
+.feature2-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+.feature2-title>div{
+  width: 6rem;
+  margin-right: 0.5rem;
+  height: 1.5rem;
+  background-image: url('../img/bj-4/bj4-2.png');
+  background-repeat:no-repeat;
+  background-size:100% auto;
+  -moz-background-size:100% auto;
+  background-position: 50% 60%;
+}
+.feature2-title>h1 {
   color: #853117;
-  font-size: 1.5rem;
-  margin-top: 6rem;
+  font-size: 1.2rem;
+}
+.feature2-title2 {
+  color: #853117;
+  font-size: 1rem;
+  line-height: 3rem;
 }
 .feature2-info{
-  color: #853117;
-  font-size: 1.1rem;
-  line-height: 2rem;
-  margin-top: 1.5rem;
+  margin: auto;
+  width: 16rem;
+  height: 100%;
+  background-image: url('../img/bj-4/bj4-1.png');
+  background-repeat:no-repeat;
+  background-size:100% auto;
+  -moz-background-size:100% auto;
 }
 
 .feature3-slide {
@@ -412,7 +434,7 @@
   margin: auto;
   color:  #853117;
   font-size: 0.8rem;
-  line-height: 1.8rem;
+  line-height: 1.5rem;
 }
 .feature10-tag>img {
   width: 4rem;
