@@ -1,0 +1,50 @@
+.about-slide {
+  background-color: #fff;
+}
+.about-content {
+  max-width: 1050px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.about-line1 {
+  display: flex;
+  justify-content: center;
+  width: 85%;
+  height: 4rem;
+  margin: auto;
+  margin-top: 3.4rem;
+  margin-bottom: 0.4rem;
+  border-bottom: 1px solid #9fa0a0;
+}
+.about-line2 {
+  width: 85%;
+  margin: auto;
+  margin-bottom: 0.4rem;
+  border-bottom: 1px solid #9fa0a0;
+}
+.about-line1>div {
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+  -moz-background-size:100% 100%;
+  margin-left:0.5rem;
+  margin-right:0.5rem;
+}
+.about-footer {
+  position: absolute;
+  width: 100%;
+  height: 2.5rem;
+  bottom: 0;
+  background-image: url('../img/bj-14/bj-15-5_02.png');
+  background-repeat:no-repeat;
+  background-size:100% auto;
+  -moz-background-size:100% auto;
+  padding-top: 3rem;
+}
+.about-footer>p {
+  color:  #853117;
+  font-size: 1rem;
+  margin: auto;
+}

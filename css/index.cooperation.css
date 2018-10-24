@@ -1,0 +1,18 @@
+
+.cooperation-slide {
+  background-image: url('../img/bj-9/bj-9.jpg');
+  background-repeat:no-repeat;
+  background-size:100% 110%;
+  -moz-background-size:100% 110%;
+  background-position: 50% 90%;
+}
+.cooperation-tag {
+  background-image: url('../img/bj-9/bj-9-1.png');
+  margin: auto;
+  margin-top: 1rem;
+  width:  20rem;
+  height: 15rem;
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+  -moz-background-size:100% 100%;
+}

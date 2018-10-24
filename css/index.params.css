@@ -1,127 +1,48 @@
 
-.slide-params {
-  background-image: url('/home/img/param-bg.jpg');
-}
 
-.params-content {
+.params1-title {
+  color: #853117;
+  font-size: 1.4rem;
   position: relative;
-  left: 50%;
-  margin-left: 35px;
-  margin-bottom: 160px;
-  text-align: left;
+  margin-top: 5rem;
 }
-
-.params-content h1 {
-  width: 170px;
-  height: 28px;
-  overflow: hidden;
-  margin-bottom: 10px;
-  font-size: 12px;
-  text-indent: -500px;
-  background: url('/home/img/title_x1.png') no-repeat 0 50%;
-  background-size: cover;
-}
-
-.params-content p {
-  width: 330px;
-  color: #fff;
-  font-size: 14px;
-  line-height: 32px;
-  font-weight: 200;
-  border-bottom: 1px solid #d0d0d0;
-}
-
-.slide-params footer {
+.params1-footer {
+  background: #f6ae36;
+  bottom: 0rem;
   position: absolute;
-  bottom: 0;
-  left: 0;
   width: 100%;
-  margin-top: 0;
-  background: #000;
-  -webkit-animation-delay: 1800ms;
-  animation-delay: 1800ms;
+  padding: 1rem 0;
 }
-
-.slide-params .footer-qr div {
-  background: none !important;
+.params1-footer>p {
+  color: #fff;
+  font-size: 0.9rem;
+  line-height: 2rem;
 }
-
-@media (max-width: 1200px) {
-  .slide-params {
-    background-image: url('/home/img/param-bg-720.jpg');
-  }
-  .params-content {
-    margin-left: -46px;
-  }
+.params1-tag {
+  background-image: url('../img/bj-10/bj-10-1.png');
+  margin: auto;
+  margin-top: 1.8rem;
+  width:  90%;
+  height: 100%;
+  background-repeat:no-repeat;
+  background-size:100% auto;
+  -moz-background-size:100% auto;
 }
-@media (max-width: 767px) {
-  .params-content h1 {
-    width: 150px;
-    height: 25px;
-    background-position: left center;
-  }
-  .params-content {
-    left: 0;
-    padding: 0 20px;
-    margin-left: 0;
-    box-sizing: border-box;
-  }
-  .params-content p {
-    width: auto;
-    font-size: 12px;
-    line-height: 20px;
-    border-bottom: none;
-  }
-  .section-params .fp-tableCell {
-    display: block;
-    padding-top: 70px;
-    box-sizing: border-box;
-  }
-  .slide-params {
-    background-position: right center;
-  }
-
-  .slide-params footer {
-    display: block;
-  }
-
-  .slide-params .footer-content {
-    padding: 0 20px 20px;
-  }
-
-  .slide-params .footer-qr {
-    display: none;
-  }
-
-  .slide-params .footer-link {
-    display: none;
-  }
-
-  .section-params .footer-social {
-    width: auto;
-    padding-left: 0;
-    margin: 0 auto;
-  }
-
-  .section-params .footer-social::after {
-    display: none;
-  }
-
-  .section-params .social-text {
-    width: 120px
-  }
-  .section-params .social-imgs {
-    margin-left: -35px;
-  }
-  .section-params .social-qr {
-    margin-left: -45px;
-  }
-  .section-params .footer-social > div {
-    width: auto;
-  }
-
-  .btn-box {
-    display: block;
-  }
+.params2-slide {
+  background-image: url('../img/bj-11/bj-11.jpg');
+  background-repeat:no-repeat;
+  background-size:100% auto;
+  -moz-background-size:100% auto;
 }
-
+.feature8-title{
+  color: #853117;
+  font-size: 1.5rem;
+  margin-bottom: 0.3rem;
+}
+.params2-info{
+  color: #853117;
+  font-size: 0.9rem;
+  margin-top: 0.3rem;
+  text-align: left;
+  margin-left: 4.5rem;
+}

@@ -1,0 +1,25 @@
+.article-slide {
+  background-color: #fff4f4;
+}
+.article-pic {
+  position: absolute;
+  top:30%;
+  left:8%;
+  width:84%;
+  height:100%;
+  background-image: url('../img/bj-14/bj-15-5_02.png');
+  background-repeat:no-repeat;
+  background-size:100% auto;
+  -moz-background-size:100% auto;
+}
+.article-tag {
+  position: absolute;
+  top:70%;
+  left:8%;
+  width:84%;
+  height:100%;
+  background-image: url('../img/bj-14/bj-15-5_02.png');
+  background-repeat:no-repeat;
+  background-size:100% auto;
+  -moz-background-size:100% auto;
+}
