@@ -1,5 +1,5 @@
 .service-slide {
-  background-image: url('../img/bj-13/bj-14.jpg');
+  background-image: url('../img/bj14/bj-14.jpg');
   background-repeat:no-repeat;
   background-size:100% auto;
   -moz-background-size:100% auto;
@@ -32,9 +32,9 @@
   color:  #853117;
   font-size: 0.7rem;
   margin-left: 3.5rem;
-  margin-top:0.2rem;
+  margin-top:0.1rem;
   width: 75%;
-  margin-bottom: 1.2rem;
+  margin-bottom: 6%;
   text-align: left;
   line-height: 1.2rem;
 }
@@ -45,8 +45,8 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 25%;
-  margin-top: 0;
+  height: 20%;
+  max-height: 9.5rem;
   background: none;
   -webkit-animation-delay: 1800ms;
   animation-delay: 1800ms;
@@ -55,21 +55,35 @@
 .service-tag {
   width:100%;
   height:100%;
-  background-image: url('../img/bj-13/bj-14-5.png');
+  background-image: url('../img/bj14/bj-14-5.png');
   background-repeat:no-repeat;
-  background-size:110% auto;
-  -moz-background-size:110% auto;
+  background-size:100% auto;
+  -moz-background-size:100% auto;
 }
-.service-tag>img {
-  width: 3rem;
-  height: 3rem;
+.code-tag {
+  position: absolute;
+  width: 100%;
+  top: -60%;
+}
+.code-tag>img {
+  width: 15%;
+  height: auto;
   margin: auto;
-  margin-top: 20%;
+}
+.code-tag> p{
+  margin: auto;
+  color:  #853117;
+  font-size: 0.5rem;
+}
+.service-tag {
+  padding-top: 1rem;
 }
 .service-tag>p {
   margin: auto;
   color:  #853117;
-  font-size: 0.7rem;
+  text-align: center;
+  font-size: 0.8rem;
+  line-height: 1.1rem;
 }
 .service-time {
   position: absolute;
@@ -79,11 +93,8 @@
   color:  #853117;
   font-size: 0.7rem;
 }
-/* @media (max-height: 667px) {
-  .service-tag>img {
-    margin-top: 5rem;
+@media (max-height: 600px) {
+  .service-info-desc {
+    margin-bottom: 2%;
   }
-  .service-slide footer{
-    height: 10rem;
-  }
-} */
+}

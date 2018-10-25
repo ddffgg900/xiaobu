@@ -27,24 +27,62 @@
 }
 .about-line1>div {
   background-repeat:no-repeat;
-  background-size:100% 100%;
-  -moz-background-size:100% 100%;
+  background-size:100% auto;
+  -moz-background-size:100% auto;
   margin-left:0.5rem;
   margin-right:0.5rem;
 }
 .about-footer {
   position: absolute;
   width: 100%;
-  height: 2.5rem;
+  height: 20%;
+  max-height: 8rem;
   bottom: 0;
-  background-image: url('../img/bj-14/bj-15-5_02.png');
+  background-image: url('../img/bj-13/bj-14-5.png');
   background-repeat:no-repeat;
-  background-size:100% auto;
-  -moz-background-size:100% auto;
-  padding-top: 3rem;
+  background-size:110% auto;
+  -moz-background-size:110% auto;
 }
 .about-footer>p {
   color:  #853117;
   font-size: 1rem;
   margin: auto;
+  margin-top: 4.3rem ;
+}
+.about-footer>a {
+  color:  #853117;
+  font-size: 0.8rem;
+  margin: auto;
+}
+
+.about-info-tag {
+  margin-left: 2.5rem;
+  margin-top: 0.5rem;
+  width:  1.6rem;
+  height: 1.6rem;
+  background-repeat:no-repeat;
+  background-size:100% auto;
+  -moz-background-size:100% auto;
+}
+.about-info-tag>div {
+  width: 5.5rem;
+  margin-left: 1.3rem;
+  margin-top: 0.2rem;
+  color:  #853117;
+  font-size: 1.0rem;
+}
+.about-info-desc {
+  color:  #853117;
+  font-size: 0.7rem;
+  margin-left: 4.7rem;
+  margin-top:0.3rem;
+  width: 75%;
+  margin-bottom: 6%;
+  text-align: left;
+  line-height: 1.2rem;
+}
+@media (max-height: 600px) {
+  .about-info-desc {
+    margin-bottom: 2%;
+  }
 }

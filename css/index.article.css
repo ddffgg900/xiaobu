@@ -7,7 +7,6 @@
   left:8%;
   width:84%;
   height:100%;
-  background-image: url('../img/bj-14/bj-15-5_02.png');
   background-repeat:no-repeat;
   background-size:100% auto;
   -moz-background-size:100% auto;
@@ -18,7 +17,29 @@
   left:8%;
   width:84%;
   height:100%;
-  background-image: url('../img/bj-14/bj-15-5_02.png');
+  background-repeat:no-repeat;
+  background-size:100% auto;
+  -moz-background-size:100% auto;
+}
+.article-section .fp-controlArrow {
+  
+  border: 0;
+  
+}
+.article-section .fp-prev {
+  left:2px;
+  background-repeat:no-repeat;
+  background-size:100% auto;
+  -moz-background-size:100% auto;
+  background-image: url('../img/bj9/bj9-1.png');
+  width:1rem;
+  height:2rem;
+}
+.article-section .fp-next {
+  right:2px;
+  background-image: url('../img/bj9/bj9-2.png');
+  width:1rem;
+  height:2rem;
   background-repeat:no-repeat;
   background-size:100% auto;
   -moz-background-size:100% auto;
