@@ -1,0 +1,27 @@
+
+.cooperation-slide {
+  background-color: #fdd244;
+}
+.cooperation-tag {
+  background-image: url('../img/bj10/bj10-2.png');
+  margin: auto;
+  margin-top: 1rem;
+  width:  90%;
+  height: 100%;
+  background-repeat:no-repeat;
+  background-size:100% auto;
+  -moz-background-size:100% auto;
+}
+.cooperation-footer {
+  position: absolute;
+  bottom:0;
+  left:50%;
+  margin-left: -8rem;
+  width: 16rem;
+  height: 27%;
+  max-height:11rem;
+  background-image: url('../img/bj10/bj10-1.png');
+  background-repeat:no-repeat;
+  background-size:100% auto;
+  -moz-background-size:100% auto;
+}
