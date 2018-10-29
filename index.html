@@ -23,13 +23,13 @@
 
 <body>
   <nav class="nav-menu mobile-only hidden" id="myMenu">
-    <li data-menuanchor="home"><a class="lock" href="#home">小布首页</a></li>
-    <li data-menuanchor="production"><a href="#production">产品介绍</a></li>
-    <li data-menuanchor="feature1"><a href="#feature1">特色内容</a></li>
-    <li data-menuanchor="params1"><a href="#params1">产品参数</a></div>
-      <li data-menuanchor="download"><a href="#download">APP下载</a></li>
-      <li data-menuanchor="service"><a href="#service">售后服务</a></li>
-      <li data-menuanchor="about"><a href="#about">关于我们</a></li>
+    <div data-menuanchor="home"><a class="lock" href="#home">小布首页</a></div>
+    <div data-menuanchor="production"><a href="#production">产品介绍</a></div>
+    <div data-menuanchor="feature1"><a href="#feature1">特色内容</a></div>
+    <div data-menuanchor="params1"><a href="#params1">产品参数</a></div>
+    <div data-menuanchor="download"><a href="#download">APP下载</a></div>
+    <div data-menuanchor="service"><a href="#service">售后服务</a></div>
+    <div data-menuanchor="about"><a href="#about">关于我们</a></div>
   </nav>
   <header>
     <div class="content">
@@ -48,6 +48,18 @@
         <div class="menu-open-dot"></div>
       </div>
       <img src="img/header.png" />
+      <nav>
+        <span class="lock"><a href="/">天猫精灵</a></span>
+        <!--<span ><a href="https://genie.tmall.com/p/rd337339.htm?spm=a1z10.1-b-s.w5001-16719849583.4.3b1b82a4S4VZKd&scene=taobao_shop" target="_blank">限量公测</a></span>-->
+
+        <!-- <span ><a href="/fggc">公测申请</a></span> -->
+
+
+        <span><a href="/skills">魔法技能</a></span>
+        <span><a href="/guide">操作指南</a></span>
+        <span><a href="/equipment">支持设备</a></span>
+        <span><a href="/storefront">线下体验店</a></span>
+      </nav>
     </div>
   </header>
   <div id="loading" class="hidden">
@@ -373,9 +385,9 @@
             $('.nav-menu').toggleClass('hidden');
             $('.menu').toggleClass('show');
           });
-          $('.nav-menu>li>a').click(function(e) {
+          $('.nav-menu>div>a').click(function(e) {
             // $.fn.fullpage.moveTo(e.currentTarget.attributes[0].nodeValue)
-            $('.nav-menu>li>a').removeClass('lock');
+            $('.nav-menu>div>a').removeClass('lock');
             $(e.currentTarget).addClass('lock');
             setTimeout(function() {
 
