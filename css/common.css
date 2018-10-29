@@ -700,8 +700,8 @@ footer .download-btn {
   margin: auto;
   width: 100%;
   height: 100%;
-  top: 0;
-  padding-top: 70%;
+  top: 45%;
+  padding-top: 0;
 }
 
 .loading-xiaobu {
