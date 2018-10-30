@@ -11,23 +11,17 @@
 
 .home-title1 {
   margin: auto;
-  margin-top: 5rem;
-  width: 10rem;
-  height: 3.5rem;
-  background-image: url('../img/bj-1/bj1-1.png');
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  -moz-background-size: 100% auto;
+  margin-top: 4%;
+  width: 20%;
+  display: block;
+  
 }
 
 .home-title2 {
   margin: auto;
-  width: 15rem;
-  height: 7.5rem;
-  background-image: url('../img/bj-1/bj1-2.png');
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  -moz-background-size: 100% auto;
+  margin-top: 1%;
+  width: 30%;
+  display: block;
 }
 
 .home-footer {
@@ -42,11 +36,8 @@
 }
 
 .home-tag {
-  position: relative;
-  top: 35%;
   color: #e96161;
-  font-size: 1.5rem;
-  line-height: 1.8rem;
+  font-size: 1.4rem;
 }
 
 .home-cash {
@@ -65,24 +56,22 @@
 }
 
 .home-slide {
+  background-color: #fdd244;
   background-image: url('../img/pc/bj1/bj1.jpg');
   background-repeat:no-repeat;
-  background-size:cover;
-  -moz-background-size:cover;
-  background-position: 50% 50%;
-  -moz-background-position: 50% 0%;
-  
+  background-size:auto 100%;
+  -moz-background-size:auto 100%;
 }
 
 .buynow {
   position: absolute;
-  bottom: 4rem;
+  bottom: 5%;
   left: 50%;
-  margin-left: -12rem;
-  width: 24rem;
-  height: 13rem;
+  margin-left: -8rem;
+  width: 14rem;
+  height: 5rem;
   overflow: hidden;
-  background-image: url('../img/bj-1/lijigoumai.png');
+  background-image: url('../img/pc/bj1/bj1-2.png');
   background-repeat: no-repeat;
   background-size: 100% auto;
   -moz-background-size: 100% auto;
@@ -90,17 +79,17 @@
 
 .home2-info {
   color: #fff;
-  font-size: 3.2rem;
-  line-height: 5.5rem;
+  height:6%;
+  font-size: 1.6rem;
+  line-height: 15%;
 }
 
 .home2-slide {
+  background-color: #fdd244;
   background-image: url('../img/pc/bj3/bj3.jpg');
   background-repeat:no-repeat;
-  background-size:cover;
-  -moz-background-size:cover;
-  background-position: 50% 50%;
-  -moz-background-position: 50% 50%;
+  background-size:auto 100%;
+  -moz-background-size:auto 100%;
 }
 
 .home2-back {
@@ -118,7 +107,7 @@
 
 .home2-footer {
   position: absolute;
-  bottom: 0;
+  bottom: 1rem;
   width: 100%;
 }
 
@@ -134,10 +123,10 @@
   position: absolute;
   left: 50%;
   bottom: 0;
-  margin-left: -7rem;
-  width: 14rem;
+  margin-left: -13rem;
+  width: 26rem;
   height: 4rem;
-  background-image: url('../img/bj-2/Bj-2.png');
+  background-image: url('../img/pc/bj3/bj3-1.png');
   background-repeat:no-repeat;
   background-size:100% auto;
   -moz-background-size:100% auto;

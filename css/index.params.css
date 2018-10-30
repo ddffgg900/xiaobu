@@ -1,54 +1,55 @@
 .params1-slide1 {
-  background-image: url('../img/bj11/1/bj11-1.jpg');
+  background-color: #fdd244;
+  background-image: url('../img/pc/bj11/bj11-1-1.png');
   background-repeat:no-repeat;
   background-size:100% auto;
-  -moz-background-size:100% auto;
+  -moz-background-size: 100% auto;
   
 }
 
 .params1-desc1{
   position: absolute;
-  top:30%;
+  top:15%;
   text-align: left;
   width: 100%;
-  left:45%;
+  left:25%;
 }
 .params1-desc2{
   position: absolute;
-  bottom:17%;
+  bottom:15%;
   text-align: left;
   width: 100%;
-  left:10%;
+  left: 60%;
 }
 
 .params1-title {
   color: #853117;
-  font-size: 1.3rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 .params1-info {
-  margin-top: 0.3rem;
+  margin-top: 2%;
   color: #853117;
-  font-size: 0.9rem;
-  line-height: 1.4rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 .params1-slide2 .params1-title {
-  font-size: 1.4rem;
+  font-size: 2.4rem;
   margin-top: 4rem;
 }
 .params1-slide2 .params1-info {
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin-top: 1rem;
 }
 .params1-slide2 .params1-tag {
-  background-image: url('../img/bj11/2/bj11-2.png');
+  background-image: url('../img/pc/bj11/bj11-2-1.png');
   background-repeat:no-repeat;
   background-size:100% auto;
   -moz-background-size:100% auto;
-  width:90%;
+  width:40%;
   margin:auto;
   height: 100%;
-  margin-top: 9%;
+  margin-top: 3%;
 }
 
 .params1-slide3 {
@@ -56,18 +57,18 @@
   
 }
 .params1-slide3 .params1-title {
-  font-size: 1.4rem;
+  font-size: 2.4rem;
   margin-top: 4rem;
 }
 .params1-slide3 .params1-tag {
-  background-image: url('../img/bj11/3/bj11.png');
+  background-image: url('../img/pc/bj11/bj11-3-1.png');
   background-repeat:no-repeat;
   background-size:100% auto;
   -moz-background-size:100% auto;
-  width:95%;
+  width:65%;
   margin:auto;
   height: 100%;
-  margin-top: 13%;
+  margin-top: 3%;
   display: flex;
   justify-content: center;
   padding-top: 15.5rem;
@@ -78,28 +79,29 @@
   margin: 5px;
 }
 .params1-slide4 .params1-title{
-  font-size: 1.4rem;
+  font-size: 2.4rem;
   margin-top: 4rem;
 }
 
 .params1-slide4 .params1-tag{
-  background-image: url('../img/bj11/4/bj11-4.png');
+  background-image: url('../img/pc/bj11/bj11-4-1.png');
   background-repeat:no-repeat;
   background-size:100% auto;
   -moz-background-size:100% auto;
-  width:95%;
+  width:90%;
   margin:auto;
   height: 55%;
-  margin-top: 10%;
+  margin-top: 3%;
 }
 .params1-section .fp-controlArrow {
   display: none;
 }
 .params2-slide {
-  background-image: url('../img/bj-11/bj-11.jpg');
+  background-color: #f6ae36;
+  background-image: url('../img/pc/bj12/bj12.jpg');
   background-repeat:no-repeat;
-  background-size:100% auto;
-  -moz-background-size:100% auto;
+  background-size:auto 100%;
+  -moz-background-size:auto  100%;
 }
 .feature8-title{
   color: #853117;
@@ -108,8 +110,137 @@
 }
 .params2-info{
   color: #853117;
-  font-size: 0.9rem;
-  margin-top: 0.3rem;
+  font-size: 1.4rem;
+  margin-top: 3%;
   text-align: left;
-  margin-left: 4.5rem;
+}
+.params2-slide .pc-and-pad div {
+  position: relative;
+  width: 100%;
+  height:3rem;
+}
+.params2-slide .pc-and-pad div>:nth-child(1) {
+  position: absolute;
+  left:30%;
+}
+.params2-slide .pc-and-pad div>:nth-child(2) {
+  position: absolute;
+  left:60%;
+}
+@media (max-width: 767px) {
+  .params1-slide1 {
+    background-image: url('../img/bj11/1/bj11-1.jpg');
+    background-repeat:no-repeat;
+    background-size:100% auto;
+    -moz-background-size:100% auto;
+    
+  }
+  
+  .params1-desc1{
+    position: absolute;
+    top:30%;
+    text-align: left;
+    width: 100%;
+    left:45%;
+  }
+  .params1-desc2{
+    position: absolute;
+    bottom:17%;
+    text-align: left;
+    width: 100%;
+    left:10%;
+  }
+  
+  .params1-title {
+    color: #853117;
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+  .params1-info {
+    margin-top: 0.3rem;
+    color: #853117;
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+  }
+  .params1-slide2 .params1-title {
+    font-size: 1.4rem;
+    margin-top: 4rem;
+  }
+  .params1-slide2 .params1-info {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  .params1-slide2 .params1-tag {
+    background-image: url('../img/bj11/2/bj11-2.png');
+    background-repeat:no-repeat;
+    background-size:100% auto;
+    -moz-background-size:100% auto;
+    width:90%;
+    margin:auto;
+    height: 100%;
+    margin-top: 9%;
+  }
+  
+  .params1-slide3 {
+    background-color: #fdd244;
+    
+  }
+  .params1-slide3 .params1-title {
+    font-size: 1.4rem;
+    margin-top: 4rem;
+  }
+  .params1-slide3 .params1-tag {
+    background-image: url('../img/bj11/3/bj11.png');
+    background-repeat:no-repeat;
+    background-size:100% auto;
+    -moz-background-size:100% auto;
+    width:95%;
+    margin:auto;
+    height: 100%;
+    margin-top: 13%;
+    display: flex;
+    justify-content: center;
+    padding-top: 15.5rem;
+    
+  }
+  .params1-slide3 .params1-tag>p{
+    font-size: 0.7rem;
+    margin: 5px;
+  }
+  .params1-slide4 .params1-title{
+    font-size: 1.4rem;
+    margin-top: 4rem;
+  }
+  
+  .params1-slide4 .params1-tag{
+    background-image: url('../img/bj11/4/bj11-4.png');
+    background-repeat:no-repeat;
+    background-size:100% auto;
+    -moz-background-size:100% auto;
+    width:95%;
+    margin:auto;
+    height: 55%;
+    margin-top: 10%;
+  }
+  .params1-section .fp-controlArrow {
+    display: none;
+  }
+  .params2-slide {
+    background-image: url('../img/bj-11/bj-11.jpg');
+    background-repeat:no-repeat;
+    background-size:100% auto;
+    -moz-background-size:100% auto;
+  }
+  .feature8-title{
+    color: #853117;
+    font-size: 1.5rem;
+    margin-bottom: 0.3rem;
+  }
+  .params2-info{
+    color: #853117;
+    font-size: 0.9rem;
+    margin-top: 0.3rem;
+    text-align: left;
+    margin-left: 4.5rem;
+  }
 }
