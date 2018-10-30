@@ -7,21 +7,18 @@
   position: absolute;
   top: 0;
 }
-/* .home-title1 {
-  padding-top: 3.4rem;
-  color: #853117;
-  font-size: 1.5rem;
-} */
+
 .home-title1 {
   margin: auto;
   margin-top: 5rem;
   width: 10rem;
-  height:3.5rem;
+  height: 3.5rem;
   background-image: url('../img/bj-1/bj1-1.png');
-  background-repeat:no-repeat;
-  background-size:100% auto;
-  -moz-background-size:100% auto;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  -moz-background-size: 100% auto;
 }
+
 .home-title2 {
   margin: auto;
   width: 15rem;
@@ -31,6 +28,7 @@
   background-size: 100% auto;
   -moz-background-size: 100% auto;
 }
+
 .home-footer {
   position: absolute;
   top: 60%;
@@ -41,34 +39,29 @@
   background-size: 130% auto;
   -moz-background-size: 130% auto;
 }
+
 .home-tag {
   color: #e96161;
   font-size: 1.0rem;
   line-height: 1.8rem;
 }
+
 .home-cash {
   margin: auto;
   margin-top: 1rem;
   width: 9rem;
-  height:6rem;
+  height: 6rem;
   background-image: url('../img/bj-1/bj-1-1.png');
-  background-repeat:no-repeat;
-  background-size:100% auto;
-  -moz-background-size:100% auto;
-  /* color: #ff0000; */
-  /* font-size: 2.8rem;
-  font-weight: 1000;
-  -webkit-text-fill-color: #ff0000;
-  -webkit-text-stroke: 2px #f6ae36;
-  text-fill-color: #ff0000;
-  text-stroke: 2px #f6ae36; */
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  -moz-background-size: 100% auto;
 }
 
 .home-slide {
   background-image: url('../img/bj-1/bj1.jpg');
-  background-repeat:no-repeat;
-  background-size:100% auto;
-  -moz-background-size:100% auto;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  -moz-background-size: 100% auto;
 }
 
 .buynow {
@@ -80,38 +73,40 @@
   height: 3rem;
   overflow: hidden;
   background-image: url('../img/bj-1/lijigoumai.png');
-  background-repeat:no-repeat;
-  background-size:100% auto;
-  -moz-background-size:100% auto;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  -moz-background-size: 100% auto;
 }
-
 
 .home2-info {
   color: #fff;
   font-size: 1.1rem;
   line-height: 1.9rem;
 }
+
 .home2-slide {
   background: #fdd244;
 }
+
 .home2-back {
   position: absolute;
   top: 4rem;
-  left:50%;
+  left: 50%;
   margin-left: -9rem;
-  width:18rem;
-  height:100%;
+  width: 18rem;
+  height: 100%;
   background-image: url('../img/bj-2/Bj-1.png');
-  background-repeat:no-repeat;
-  background-size:100% auto;
-  -moz-background-size:100% auto;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  -moz-background-size: 100% auto;
 }
 
 .home2-footer {
   position: absolute;
   bottom: 0;
-  width:  100%;
+  width: 100%;
 }
+
 .home2-footer>p {
   position: relative;
   color: #fff;
@@ -119,15 +114,236 @@
   line-height: 1.2rem;
   margin-bottom: 0.5rem;
 }
+
 .home2-footer>div {
   position: absolute;
   left: 50%;
-  bottom:0;
+  bottom: 0;
   margin-left: -7rem;
   width: 14rem;
   height: 4rem;
   background-image: url('../img/bj-2/Bj-2.png');
-  background-repeat:no-repeat;
-  background-size:100% auto;
-  -moz-background-size:100% auto;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  -moz-background-size: 100% auto;
+}
+
+@media (max-width: 1200px) {
+  .home-title1 {
+    margin: auto;
+    margin-top: 5rem;
+    width: 10rem;
+    height: 3.5rem;
+    background-image: url('../img/bj-1/bj1-1.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    -moz-background-size: 100% auto;
+  }
+  .home-title2 {
+    margin: auto;
+    width: 15rem;
+    height: 7.5rem;
+    background-image: url('../img/bj-1/bj1-2.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    -moz-background-size: 100% auto;
+  }
+  .home-footer {
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/bj-1/bj1-3.png');
+    background-repeat: no-repeat;
+    background-size: 130% auto;
+    -moz-background-size: 130% auto;
+  }
+  .home-tag {
+    color: #e96161;
+    font-size: 1.0rem;
+    line-height: 1.8rem;
+  }
+  .home-cash {
+    margin: auto;
+    margin-top: 1rem;
+    width: 9rem;
+    height: 6rem;
+    background-image: url('../img/bj-1/bj-1-1.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    -moz-background-size: 100% auto;
+  }
+  .home-slide {
+    background-image: url('../img/bj-1/bj1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    -moz-background-size: 100% auto;
+  }
+  .buynow {
+    position: absolute;
+    bottom: 4rem;
+    left: 50%;
+    margin-left: -4.5rem;
+    width: 9rem;
+    height: 3rem;
+    overflow: hidden;
+    background-image: url('../img/bj-1/lijigoumai.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    -moz-background-size: 100% auto;
+  }
+  .home2-info {
+    color: #fff;
+    font-size: 1.1rem;
+    line-height: 1.9rem;
+  }
+  .home2-slide {
+    background: #fdd244;
+  }
+  .home2-back {
+    position: absolute;
+    top: 4rem;
+    left: 50%;
+    margin-left: -9rem;
+    width: 18rem;
+    height: 100%;
+    background-image: url('../img/bj-2/Bj-1.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    -moz-background-size: 100% auto;
+  }
+  .home2-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  .home2-footer>p {
+    position: relative;
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  .home2-footer>div {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    margin-left: -7rem;
+    width: 14rem;
+    height: 4rem;
+    background-image: url('../img/bj-2/Bj-2.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    -moz-background-size: 100% auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .home-title1 {
+    margin: auto;
+    margin-top: 5rem;
+    width: 10rem;
+    height: 3.5rem;
+    background-image: url('../img/bj-1/bj1-1.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    -moz-background-size: 100% auto;
+  }
+  .home-title2 {
+    margin: auto;
+    width: 15rem;
+    height: 7.5rem;
+    background-image: url('../img/bj-1/bj1-2.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    -moz-background-size: 100% auto;
+  }
+  .home-footer {
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/bj-1/bj1-3.png');
+    background-repeat: no-repeat;
+    background-size: 130% auto;
+    -moz-background-size: 130% auto;
+  }
+  .home-tag {
+    color: #e96161;
+    font-size: 1.0rem;
+    line-height: 1.8rem;
+  }
+  .home-cash {
+    margin: auto;
+    margin-top: 1rem;
+    width: 9rem;
+    height: 6rem;
+    background-image: url('../img/bj-1/bj-1-1.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    -moz-background-size: 100% auto;
+  }
+  .home-slide {
+    background-image: url('../img/bj-1/bj1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    -moz-background-size: 100% auto;
+  }
+  .buynow {
+    position: absolute;
+    bottom: 4rem;
+    left: 50%;
+    margin-left: -4.5rem;
+    width: 9rem;
+    height: 3rem;
+    overflow: hidden;
+    background-image: url('../img/bj-1/lijigoumai.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    -moz-background-size: 100% auto;
+  }
+  .home2-info {
+    color: #fff;
+    font-size: 1.1rem;
+    line-height: 1.9rem;
+  }
+  .home2-slide {
+    background: #fdd244;
+  }
+  .home2-back {
+    position: absolute;
+    top: 4rem;
+    left: 50%;
+    margin-left: -9rem;
+    width: 18rem;
+    height: 100%;
+    background-image: url('../img/bj-2/Bj-1.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    -moz-background-size: 100% auto;
+  }
+  .home2-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  .home2-footer>p {
+    position: relative;
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  .home2-footer>div {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    margin-left: -7rem;
+    width: 14rem;
+    height: 4rem;
+    background-image: url('../img/bj-2/Bj-2.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    -moz-background-size: 100% auto;
+  }
 }
