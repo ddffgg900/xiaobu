@@ -1,4 +1,11 @@
-
+.section-video .slide {
+  background-image: url('../img/pc/bj2video/bj2.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  -moz-background-size:cover;
+  background-position: 50% 50%;
+  -moz-background-position: 50% 50%;
+}
 .video-slogan {
   margin-bottom: 28px;
   font-size: 130px;
