@@ -70,7 +70,7 @@
   background-size:cover;
   -moz-background-size:cover;
   background-position: 50% 50%;
-  -moz-background-position: 50% 50%;
+  -moz-background-position: 50% 0%;
   
 }
 
@@ -146,16 +146,6 @@
  
 }
 @media (max-width: 767px) {
-  .home-content {
-    max-width: 1050px;
-    margin: 0 auto;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    position: absolute;
-    top: 0;
-  }
-  
   .home-title1 {
     margin: auto;
     margin-top: 5rem;
@@ -187,46 +177,31 @@
   }
   .home-tag {
     top: 0;
-    color: #e96161;
     font-size: 1.0rem;
     line-height: 1.8rem;
   }
   .home-cash {
     top: 0;
-    margin: auto;
     margin-top: 1rem;
     width: 9rem;
     height:6rem;
     background-image: url('../img/bj-1/bj-1-1.png');
-    background-repeat:no-repeat;
-    background-size:100% auto;
-    -moz-background-size:100% auto;
   }
   
   .home-slide {
     background-image: url('../img/bj-1/bj1.jpg');
-    background-repeat:no-repeat;
-    background-size:100% auto;
-    -moz-background-size:100% auto;
+    background-size:cover;
+    -moz-background-size:cover;
   }
   
   .buynow {
-    position: absolute;
-    bottom: 4rem;
-    left: 50%;
     margin-left: -4.5rem;
     width: 9rem;
     height: 3rem;
-    overflow: hidden;
-    background-image: url('../img/bj-1/lijigoumai.png');
-    background-repeat:no-repeat;
-    background-size:100% auto;
-    -moz-background-size:100% auto;
   }
   
   
   .home2-info {
-    color: #fff;
     font-size: 1.1rem;
     line-height: 1.9rem;
   }
