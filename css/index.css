@@ -10,7 +10,7 @@ body {
 }
 
 header {
-  background: rgba(0,0,0, .6);
+  background: #fdd244;
 }
 header span a {
   color: #fff;

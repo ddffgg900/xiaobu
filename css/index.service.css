@@ -10,11 +10,11 @@
   margin-top: 3rem;
 }
 .service-info {
-  margin-top:0.4rem;
+  margin-top:3%;
 }
 
 .service-info-tag {
-  margin-left: 1.5rem;
+  margin-left: 20%;
   width:  1.6rem;
   height: 1.6rem;
   background-repeat:no-repeat;
@@ -30,13 +30,13 @@
 }
 .service-info-desc {
   color:  #853117;
-  font-size: 0.7rem;
-  margin-left: 3.5rem;
+  font-size: 1rem;
+  margin-left: 22%;
   margin-top:0.1rem;
   width: 75%;
-  margin-bottom: 6%;
+  margin-bottom: 1.5%;
   text-align: left;
-  line-height: 1.2rem;
+  line-height: 1.5rem;
 }
 
 .service-slide footer {
@@ -55,7 +55,7 @@
 .service-tag {
   width:100%;
   height:100%;
-  background-image: url('../img/bj14/bj-14-5.png');
+  background-image: url('../img/pc/bj14/14.jpg');
   background-repeat:no-repeat;
   background-size:100% auto;
   -moz-background-size:100% auto;
@@ -63,17 +63,17 @@
 .code-tag {
   position: absolute;
   width: 100%;
-  top: -60%;
+  top: -6rem;
 }
 .code-tag>img {
-  width: 15%;
+  width: 5rem;
   height: auto;
   margin: auto;
 }
 .code-tag> p{
   margin: auto;
   color:  #853117;
-  font-size: 0.5rem;
+  font-size: 0.7rem;
 }
 .service-tag {
   padding-top: 1rem;
@@ -82,8 +82,8 @@
   margin: auto;
   color:  #853117;
   text-align: center;
-  font-size: 0.8rem;
-  line-height: 1.1rem;
+  font-size: 1rem;
+  line-height: 1.2rem;
 }
 .service-time {
   position: absolute;
@@ -97,4 +97,102 @@
   .service-info-desc {
     margin-bottom: 2%;
   }
+}
+@media (max-width: 767px){
+  .service-slide {
+    background-image: url('../img/bj14/bj-14.jpg');
+    background-repeat:no-repeat;
+    background-size:100% auto;
+    -moz-background-size:100% auto;
+  }
+  .service-title {
+    color: #853117;
+    font-size: 1.4rem;
+    margin-top: 3rem;
+  }
+  .service-info {
+    margin-top:0.4rem;
+  }
+  
+  .service-info-tag {
+    margin-left: 1.5rem;
+    width:  1.6rem;
+    height: 1.6rem;
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    -moz-background-size:100% 100%;
+  }
+  .service-info-tag>div {
+    width: 5.5rem;
+    margin-left: 1.1rem;
+    margin-top: 0rem;
+    color:  #853117;
+    font-size: 1.0rem;
+  }
+  .service-info-desc {
+    color:  #853117;
+    font-size: 0.7rem;
+    margin-left: 3.5rem;
+    margin-top:0.1rem;
+    width: 75%;
+    margin-bottom: 6%;
+    text-align: left;
+    line-height: 1.2rem;
+  }
+  
+  .service-slide footer {
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    max-height: 9.5rem;
+    background: none;
+    -webkit-animation-delay: 1800ms;
+    animation-delay: 1800ms;
+  }
+  
+  .service-tag {
+    width:100%;
+    height:100%;
+    background-image: url('../img/bj14/bj-14-5.png');
+    background-repeat:no-repeat;
+    background-size:100% auto;
+    -moz-background-size:100% auto;
+  }
+  .code-tag {
+    position: absolute;
+    width: 100%;
+    top: -60%;
+  }
+  .code-tag>img {
+    width: 15%;
+    height: auto;
+    margin: auto;
+  }
+  .code-tag> p{
+    margin: auto;
+    color:  #853117;
+    font-size: 0.5rem;
+  }
+  .service-tag {
+    padding-top: 1rem;
+  }
+  .service-tag>p {
+    margin: auto;
+    color:  #853117;
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 1.1rem;
+  }
+  .service-time {
+    position: absolute;
+    width: 100%;
+    top:0;
+    text-align: center;
+    color:  #853117;
+    font-size: 0.7rem;
+  }
+  
 }

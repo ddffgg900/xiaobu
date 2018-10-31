@@ -21,6 +21,7 @@
   <link rel="stylesheet" type="text/css" href="css/index.service.css" />
   <link rel="stylesheet" type="text/css" href="css/index.article.css" />
   <link rel="stylesheet" type="text/css" href="css/index.about.css" />
+  <link rel="stylesheet" type="text/css" href="css/index.download.css" />
   <style>
 
   </style>
@@ -52,18 +53,16 @@
         <div class="menu-open-dot"></div>
         <div class="menu-open-dot"></div>
       </div>
-      <img src="img/header.png" />
-      <nav>
-        <span class="lock"><a href="/">天猫精灵</a></span>
-        <!--<span ><a href="https://genie.tmall.com/p/rd337339.htm?spm=a1z10.1-b-s.w5001-16719849583.4.3b1b82a4S4VZKd&scene=taobao_shop" target="_blank">限量公测</a></span>-->
-
-        <!-- <span ><a href="/fggc">公测申请</a></span> -->
-
-
-        <span><a href="/skills">魔法技能</a></span>
-        <span><a href="/guide">操作指南</a></span>
-        <span><a href="/equipment">支持设备</a></span>
-        <span><a href="/storefront">线下体验店</a></span>
+      <img class="mobile-only" src="img/header.png" />
+      <img class="pc-and-pad"  src="img/headerPC.png" />
+      <nav class=''>
+        <span data-menuanchor="home"><a class="lock" href="#home">小布首页</a></span>
+        <span data-menuanchor="production"><a href="#production">产品介绍</a></span>
+        <span data-menuanchor="feature1"><a href="#feature1">特色内容</a></span>
+        <span data-menuanchor="params1"><a href="#params1">产品参数</a></span>
+        <span data-menuanchor="download"><a href="#download">APP下载</a></span>
+        <span data-menuanchor="service"><a href="#service">售后服务</a></span>
+        <span data-menuanchor="about"><a href="#about">关于我们</a></span>
       </nav>
     </div>
   </header>
@@ -87,11 +86,10 @@
           <div class="buynow animated" style="-webkit-animation-delay: 1400ms; animation-delay: 1600ms"></div>
         </div>
         <div class="home-content pc-and-pad">
-          <img class="home-title1 animated" src="img/pc/bj1/bj1-1.png"/>
+          <!-- <img class="home-title1 animated" src="img/pc/bj1/bj1-1.png"/>
           <img class="home-title2 animated" style="-webkit-animation-delay: 800ms; animation-delay: 800ms" src="img/pc/bj1/bj1-3.png"/>
           <h1 class="home-tag animated" style="-webkit-animation-delay: 1000ms; animation-delay: 1000ms">语聊互动 | 智慧启蒙课 | 内容点播 | 百科问答 | 语音游戏</h1>
-          <!-- <div class="home-cash animated" style="-webkit-animation-delay: 800ms; animation-delay: 800ms"></div> -->
-          <div class="buynow animated" style="-webkit-animation-delay: 1200ms; animation-delay: 1200ms"></div>
+          <div class="buynow animated" style="-webkit-animation-delay: 1200ms; animation-delay: 1200ms"></div> -->
         </div>
       </div>
     </div>
@@ -140,7 +138,7 @@
     </div>
     <div class="section" data-anchor="feature1">
       <div class="slide feature2-slide">
-        <!-- <div class="home-content">
+        <div class="home-content mobile-only">
           <div class="feature2-title animated" style="-webkit-animation-delay: 800ms; animation-delay: 800ms">
             <div></div>
             <h1 class = "mobile-only">精品大师课</h1>
@@ -148,7 +146,7 @@
           <div class="feature2-title2 animated" style="-webkit-animation-delay: 800ms; animation-delay: 1000ms">最全收录&nbsp; 用听解放双眼</div>
           <div class="feature2-info animated" style="-webkit-animation-delay: 1200ms; animation-delay: 1200ms"></div>
 
-        </div> -->
+        </div>
       </div>
     </div>
     <div class="section" data-anchor="feature2">
@@ -206,7 +204,7 @@
 
     <div class="section" data-anchor="feature4">
       <div class="slide feature4-slide">
-        <div class="home-content">
+        <div class="home-content mobile-only">
           <h1 class="feature-title animated">智能推荐 越用越懂你</h1>
           <p class="feature-info animated" style="-webkit-animation-delay: 800ms; animation-delay: 800ms">专为儿童使用习惯开发<br/>让 AI 科技更好的给小朋友启蒙教育</p>
           <div class="feature4-icon animated" style="-webkit-animation-delay: 1200ms; animation-delay: 1200ms"></div>
@@ -262,7 +260,7 @@
 
     <div class="section" data-anchor="cooperation">
       <div class="slide cooperation-slide">
-        <div class="home-content">
+        <div class="home-content mobile-only">
           <h1 class="feature-title animated">小布的优质<br/>有声内容合作伙伴</h1>
           <div class="cooperation-tag animated mobile-only" style="-webkit-animation-delay: 800ms; animation-delay: 800ms"></div>
           <div class="cooperation-footer animated mobile-only" style="-webkit-animation-delay: 1200ms; animation-delay: 1200ms"></div>
@@ -361,13 +359,13 @@
       </div>
     </div>
     <div class="section" data-anchor="download">
-      <div class="slide feature9-slide">
-        <div class="feature-content">
+      <div class="slide download-slide">
+        <div class="home-content">
           <h1 class="feature-title animated">小布AI机器人·APP下载</h1>
-          <div class="feature9-fhone animated" style="-webkit-animation-delay: 800ms; animation-delay: 800ms"></div>
+          <div class="download-fhone animated" style="-webkit-animation-delay: 800ms; animation-delay: 800ms"></div>
         </div>
         <footer class="fadeInUp__full animated">
-          <div class="feature9-tag">
+          <div class="download-tag">
             <a href="https://itunes.apple.com/cn/app/id1382579721?mt=8" style="background-image: url(./img/bj-12/bj-12-1.png)">
               <div>IOS系统</div>
             </a>
@@ -381,13 +379,13 @@
     <div class="section" data-anchor="service">
       <div class="slide service-slide">
         <div class="home-content">
-          <h1 class="service-title animated">售后服务</h1>
+          <h1 class="feature-title animated">售后服务</h1>
           <div class="service-info animated" style="-webkit-animation-delay: 800ms; animation-delay: 800ms">
             <div class="service-info-tag" style="background-image: url(./img/bj-13/bj-14-2.png)">
               <div>7天退货</div>
             </div>
             <div class="service-info-desc">
-              在商品签收7天内，包装未拆封、配件齐全可无理由退货。退货时，赠品需一并退回,否则无法处理。<br/> 退货时，若有赠品，赠品需一并退回，若退回不满足退货要求将拒收处理，拒收来回运费客户承担。
+              在商品签收7天内，包装未拆封、配件齐全可无理由退货。<br/>退货时，赠品需一并退回,否则无法处理。<br/>退货时，若有赠品，赠品需一并退回，若退回不满足退货要求将拒收处理，拒收来回运费客户承担。
             </div>
             <div class="service-info-tag" style="background-image: url(./img/bj-13/bj-14-3.png)">
               <div>15天换货</div>
@@ -405,8 +403,8 @@
         </div>
         <footer class="fadeInUp__full animated">
           <div class="code-tag">
-            <img data-src="./img/bj-13/bj-14-1.jpg">
-            <p>关注公众号</p>
+            <img data-src="./img/pc/bj14/code.png">
+            <!-- <p>关注公众号</p> -->
           </div>
           <div class="service-tag">
             <p>
@@ -419,7 +417,7 @@
     </div>
     <div class="section" data-anchor="about">
       <div class="slide about-slide">
-        <div class="about-content animated">
+        <div class="home-content animated">
           <div class="about-line1">
             <div style="width:7rem; height:3rem; background-image: url(./img/bj-14/bj-15-6.png)"></div>
             <div style=" height: 3rem; border-left: 1px solid #9fa0a0"></div>
