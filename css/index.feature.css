@@ -32,26 +32,29 @@
 
 .feature-title {
   color: #853117;
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-top: 5%;
   font-weight: bold;
 }
 
 .feature-info {
   color: #853117;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-top:1%;
 }
 
 .feature-tag  {
-  width: 40rem;
+  /* width: 40rem;
   margin:auto;
   margin-top: 1%;
   height: 100%;
   background-image: url('../img/pc/bj7/bj7-1.png');
   background-repeat:no-repeat;
   background-size:100% auto;
-  -moz-background-size:100% auto;
+  -moz-background-size:100% auto; */
+  margin:auto;
+  margin-top: 1%;
+  height:30%;
 }
 .feature-talk {
   position: absolute;
@@ -68,7 +71,7 @@
 
 .feature2-slide {
   background-color: #fdd244;
-  background-image: url('../img/pc/bj4/bj4.jpg');
+  background-image: url('../img/微信图片_20181031163840.png');
   background-size: auto 100%;
   -moz-background-size: auto 100%;
   
@@ -89,13 +92,13 @@
 }
 .feature2-title>h1 {
   color: #853117;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 .feature2-title2 {
   margin-top: 2%;
   color: #853117;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .feature2-info{
   margin: auto;
@@ -414,7 +417,7 @@
     width: 6rem;
     margin-right: 0.5rem;
     height: 1.5rem;
-    background-image: url('../img/pc/bj4/bj4-1.png');
+    background-image: url('../img/bj-4/bj4-2.png');
     background-repeat:no-repeat;
     background-size:100% auto;
     -moz-background-size:100% auto;
@@ -433,7 +436,7 @@
     margin: auto;
     width: 16rem;
     height: 100%;
-    background-image: url('../img/pc/bj4/bj4-2.png');
+    background-image: url('../img/bj-4/bj4-1.png');
     background-repeat:no-repeat;
     background-size:100% auto;
     -moz-background-size:100% auto;
