@@ -164,6 +164,7 @@
   background-size:  auto 100% ;
   -moz-background-size: auto 100% ;
   background-position: 50% 20px;
+  -moz-background-position: 50% 20px;
 }
 .feature4-title {
   color: #853117;
@@ -212,8 +213,12 @@
 
 .feature5-slide {
   background-color: #fff;
-  background-size:auto 100%;
-  -moz-background-size:auto 100%;
+  background-image: url('../img/pc/background/5.jpg');
+  background-repeat:no-repeat;
+  background-size:  auto 100% ;
+  -moz-background-size: auto 100% ;
+  background-position: 50% 20px;
+  -moz-background-position: 50% 20px;
   
 }
 .feature5-content  {
