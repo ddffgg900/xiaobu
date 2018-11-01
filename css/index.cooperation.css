@@ -1,10 +1,10 @@
 
 .cooperation-slide {
   background-color: #fdd244;
-  background-image: url('../img/pc/background/9.jpg');
+  background-image: url('../img/pc/background/10.jpg');
   background-repeat:no-repeat;
-  background-size: cover;
-  -moz-background-size:cover;
+  background-size: auto 100%;
+  -moz-background-size:auto 100%;
 }
 .cooperation-tag {
   background-image: url('../img/bj10/bj10-2.png');

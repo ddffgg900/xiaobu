@@ -1,10 +1,11 @@
 .section-video .slide {
+  background-color: #fdd244;
   background-image: url('../img/pc/bj2video/bj2.jpg');
   background-repeat:no-repeat;
-  background-size:cover;
-  -moz-background-size:cover;
-  background-position: 50% 50%;
-  -moz-background-position: 50% 50%;
+  background-size:100% auto;
+  -moz-background-size:100% auto;
+  background-position: 50% 20px;
+  -moz-background-position: 50% 20px;
 }
 .video-slogan {
   margin-bottom: 28px;
@@ -34,22 +35,23 @@
   display: inline-block;
   vertical-align: top;
   width: 268px;
-  height: 46px;
+  height: 166px;
   font-size: 20px;
   line-height: 46px;
   color: #fff;
-  /* background: rgba(255, 255, 255, .5); */
+  background: rgba(255, 255, 255, .5);
   border-radius: 20px;
   cursor: pointer;
 }
 .video-play:before {
   display: inline-block;
   vertical-align: top;
-  margin-top: 13px;
+  margin-top: 54px;
+  margin-left: 80px;
   width: 0;
   height: 0;
   content: "";
-  border-width: 10px 16px;
+  border-width: 30px 48px;
   border-style: solid;
   border-color: transparent transparent transparent #fff;
 }

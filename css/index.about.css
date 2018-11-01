@@ -17,13 +17,13 @@
   margin: auto;
   margin-top: 6%;
   margin-bottom: 1%;
-  border-bottom: 1px solid #9fa0a0;
+  border-bottom: 1px solid #d8d8d8;
 }
 .about-line2 {
   width: 85%;
   margin: auto;
   margin-bottom: 0.4rem;
-  border-bottom: 1px solid #9fa0a0;
+  border-bottom: 1px solid #d8d8d8;
 }
 .about-line1>div {
   background-repeat:no-repeat;
@@ -105,13 +105,13 @@
     margin: auto;
     margin-top: 3.4rem;
     margin-bottom: 0.4rem;
-    border-bottom: 1px solid #9fa0a0;
+    border-bottom: 1px solid #d8d8d8;
   }
   .about-line2 {
     width: 85%;
     margin: auto;
     margin-bottom: 0.4rem;
-    border-bottom: 1px solid #9fa0a0;
+    border-bottom: 1px solid #d8d8d8;
   }
   .about-line1>div {
     background-repeat:no-repeat;

@@ -50,12 +50,12 @@ header .content {
 header img {
   width: 50px;
   height: 35px;
-  padding-top: 12px;
-  margin-left: 20px;
+  padding-top: 14px;
+  margin-left: 16%;
 }
 
 header nav {
-  margin-left: 150px;
+  margin-left: 25%;
   margin-top: -39px;
 }
 
@@ -65,7 +65,7 @@ header span {
 
 header span.lock a,
 header span:hover a {
-  color: #fff;
+  color: #202020;
   display: inline-block;
 }
 
@@ -74,9 +74,7 @@ header span+span:before {
   margin: 0 10px;
 }
 
-header span a {
-  color: #00cbff;
-}
+
 
 header .purchase {
   width: 92px;
@@ -277,7 +275,7 @@ footer a {
 }
 
 footer a:hover {
-  color: #00cbff;
+  color: #202020;
 }
 
 footer .btn-box {

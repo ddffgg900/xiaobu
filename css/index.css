@@ -15,9 +15,9 @@ header {
 header span a {
   color: #fff;
 }
-header span.lock a,
-header span:hover a {
-  color: #00cbff;
+header span .lock,
+header span a:hover{
+  color: #202020;
 }
 
 .slide {

@@ -3,9 +3,9 @@
 }
 .article-pic {
   position: absolute;
-  top:23%;
-  left:30%;
-  width:40%;
+  top:25%;
+  left:34%;
+  width:32%;
   height:100%;
   background-repeat:no-repeat;
   background-size:100% auto;
@@ -13,7 +13,7 @@
 }
 .article-tag {
   position: absolute;
-  top:80%;
+  top:78%;
   left:20%;
   width:60%;
   height:100%;

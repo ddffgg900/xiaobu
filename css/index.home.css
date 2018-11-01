@@ -77,19 +77,20 @@
   -moz-background-size: 100% auto;
 }
 
-.home2-info {
+.pc-and-pad .home2-info {
   color: #fff;
-  height:6%;
   font-size: 1.6rem;
-  line-height: 15%;
+  height: 6%;
 }
 
 .home2-slide {
   background-color: #fdd244;
   background-image: url('../img/pc/bj3/bj3.jpg');
   background-repeat:no-repeat;
-  background-size:auto 100%;
-  -moz-background-size:auto 100%;
+  background-size:auto 90%;
+  -moz-background-size:auto 90%;
+  background-position: 50% 40px;
+  -moz-background-position: 50% 20px;
 }
 
 .home2-back {
