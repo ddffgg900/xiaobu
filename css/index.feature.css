@@ -163,8 +163,8 @@
   background-repeat:no-repeat;
   background-size:  auto 100% ;
   -moz-background-size: auto 100% ;
-  background-position: 50% 20px;
-  -moz-background-position: 50% 20px;
+  background-position: 50% 50%;
+  -moz-background-position: 50% 50%;
 }
 .feature4-title {
   color: #853117;
@@ -217,8 +217,8 @@
   background-repeat:no-repeat;
   background-size:  auto 100% ;
   -moz-background-size: auto 100% ;
-  background-position: 50% 20px;
-  -moz-background-position: 50% 20px;
+  background-position: 50% 50%;
+  -moz-background-position: 50% 50%;
   
 }
 .feature5-content  {
