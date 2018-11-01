@@ -1,10 +1,38 @@
 .params1-slide1 {
   background-color: #fdd244;
-  background-image: url('../img/pc/bj11/bj11-1-1.png');
+  background-image: url('../img/pc/background/11g-1.jpg');
   background-repeat:no-repeat;
   background-size:100% auto;
   -moz-background-size: 100% auto;
-  
+  background-position: 50% 50%;
+  -moz-background-position: 50% 50%;
+}
+.params1-slide2 {
+  background-color: #fff;
+  background-image: url('../img/pc/background/11g-2.jpg');
+  background-repeat:no-repeat;
+  background-size:auto 100%;
+  -moz-background-size: auto 100%;
+  background-position: 50% 50%;
+  -moz-background-position: 50% 50%;
+}
+.params1-slide3 {
+  background-color: #fdd244;
+  background-image: url('../img/pc/background/11g-3.jpg');
+  background-repeat:no-repeat;
+  background-size:auto 100%;
+  -moz-background-size: auto 100%;
+  background-position: 50% 50%;
+  -moz-background-position: 50% 50%;
+}
+.params1-slide4 {
+  background-color: #fff;
+  background-image: url('../img/pc/background/11g-4.jpg');
+  background-repeat:no-repeat;
+  background-size:auto 100%;
+  -moz-background-size: auto 100%;
+  background-position: 50% 50%;
+  -moz-background-position: 50% 50%;
 }
 
 .params1-desc1{
@@ -98,10 +126,12 @@
 }
 .params2-slide {
   background-color: #f6ae36;
-  background-image: url('../img/pc/bj12/bj12.jpg');
+  background-image: url('../img/pc/background/12.jpg');
   background-repeat:no-repeat;
   background-size:auto 100%;
   -moz-background-size:auto  100%;
+  background-position: 50% 50%;
+  -moz-background-position: 50% 50%;
 }
 .feature8-title{
   color: #853117;

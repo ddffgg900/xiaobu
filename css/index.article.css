@@ -1,5 +1,20 @@
-.article-slide {
+.article-slide1 {
   background-color: #fff4f4;
+  background-image: url('../img/pc/background/9g-1.jpg');
+  background-size: auto 100%;
+  -moz-background-size: auto 100%;
+}
+.article-slide2 {
+  background-color: #fff4f4;
+  background-image: url('../img/pc/background/9g-2.jpg');
+  background-size: auto 100%;
+  -moz-background-size: auto 100%;
+}
+.article-slide3 {
+  background-color: #fff4f4;
+  background-image: url('../img/pc/background/9g-3.jpg');
+  background-size: auto 100%;
+  -moz-background-size: auto 100%;
 }
 .article-pic {
   position: absolute;
@@ -45,8 +60,21 @@
   -moz-background-size:100% auto;
 }
 @media (max-width: 767px) {
-  .article-slide {
+  .article-slide1 {
     background-color: #fff4f4;
+    background-image: none;
+  }
+  .article-slide2 {
+    background-color: #fff4f4;
+    background-image: none;
+  }
+  .article-slide3 {
+    background-color: #fff4f4;
+    background-image: none;
+  }
+  .article-slide4 {
+    background-color: #fff4f4;
+    background-image: none;
   }
   .article-pic {
     position: absolute;

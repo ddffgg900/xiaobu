@@ -1,10 +1,11 @@
 .feature-slide {
-  background-image: url('../img/pc/bj7/bj7.jpg');
+  /* background-color: #fdd244; */
+  background: url('../img/pc/background/7.jpg') ,linear-gradient(180deg, #fdd244 27%,#fbe39d 62%, #e7daca 97%);
   background-repeat:no-repeat;
-  background-size:cover;
-  -moz-background-size:cover;
-  background-position: 50% 50%;
-  -moz-background-position: 50% 50%;
+   background-size:auto 100%;
+  -moz-background-size:auto 100% ;
+  background-position: 50% 0;
+  -moz-background-position: 50% 0;
 }
 
 .feature-content {
