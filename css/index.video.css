@@ -85,8 +85,23 @@
 .video-play button:focus {
   outline: none;
 }
+.pv-video {
+  position: absolute;
+  top:15%;
+  left:20%;
+  width: 60%;
+  height: 73%;
+}
 
 @media (max-width: 767px) {
+  .video-play1{
+    position: absolute;
+    display: inline-block;
+    top:30%;
+    width: 100%;
+    height:40%;
+    left:0;
+  }
   .section-video .slide {
     background-image: url('../img/video.jpg');
     background-repeat:no-repeat;

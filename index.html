@@ -7,6 +7,8 @@
   <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta content="yes" name="apple-mobile-web-app-capable" />
+  <link rel="shortcut icon" href="favicon.ico" /> 
+  <link rel="bookmark" href="favicon.ico" /> 
   <link rel="stylesheet" type="text/css" href="css/fullpage.css" />
   <link rel="stylesheet" type="text/css" href="css/examples.css" />
   <link rel="stylesheet" type="text/css" href="vendor/modal/component.css" />
@@ -83,27 +85,38 @@
           <h1 class="home-tag animated" style="-webkit-animation-delay: 1000ms; animation-delay: 1000ms">语聊互动 | 智慧启蒙课 | 内容点播<br/>百科问答 | 语音游戏</h1>
           <div class="home-cash animated" style="-webkit-animation-delay: 1200ms; animation-delay: 1200ms"></div>
           <div class="home-footer animated" style="-webkit-animation-delay: 1600ms; animation-delay: 1400ms"></div>
-          <div class="buynow animated" style="-webkit-animation-delay: 1400ms; animation-delay: 1600ms"></div>
+          <a target="_blank" href = "https://item.jd.com/100000822941.html"><div class="buynow animated" style="-webkit-animation-delay: 1400ms; animation-delay: 1600ms"></div></a>
+
         </div>
         <div class="home-content pc-and-pad">
           <!-- <img class="home-title1 animated" src="img/pc/bj1/bj1-1.png"/>
           <img class="home-title2 animated" style="-webkit-animation-delay: 800ms; animation-delay: 800ms" src="img/pc/bj1/bj1-3.png"/>
           <h1 class="home-tag animated" style="-webkit-animation-delay: 1000ms; animation-delay: 1000ms">语聊互动 | 智慧启蒙课 | 内容点播 | 百科问答 | 语音游戏</h1>
           <div class="buynow animated" style="-webkit-animation-delay: 1200ms; animation-delay: 1200ms"></div> -->
+          <a class="buynow" target="_blank" href = "https://item.jd.com/100000822941.html"></a>
         </div>
       </div>
     </div>
     <div class="section section-video" data-anchor="production">
       <div class="slide">
-        <span class="video-play md-trigger" style="-webkit-animation-delay: 800ms; animation-delay: 800ms" data-modal="modal-video"></span>
-        <div class="md-modal md-effect-1" id="modal-video">
-          <div class="md-close"></div>
-          <video controls playsinline>
-            <source id="video-source"  type="video/mp4">
+        <div class="home-content mobile-only">
+          <!-- <span class="video-play md-trigger" style="-webkit-animation-delay: 800ms; animation-delay: 800ms" data-modal="modal-video"></span> -->
+          <span class="video-play1 md-trigger" data-modal="modal-video"></span>
+          <div class="md-modal md-effect-1" id="modal-video">
+            <div class="md-close"></div>
+            <video controls playsinline>
+              <source id="video-source"  type="video/mp4">
+                <!-- src="img/video.mp4" -->
+            </video>
+          </div>
+          <div class="md-overlay"></div>
+        </div>
+        <div class="home-content pc-and-pad">
+          <video class="pv-video" controls playsinline>
+            <source id="video-source" src="img/video.mp4" type="video/mp4">
               <!-- src="img/video.mp4" -->
           </video>
         </div>
-        <div class="md-overlay"></div>
       </div>
     </div>
     <div class="section" data-anchor="home2">
@@ -637,7 +650,7 @@
 
           // ===== 介绍视频 =====
           $('#video-source')[0].src = 'img/video.mp4';
-          $('.section-video .video-play').click(function(e) {
+          $('.section-video .video-play1').click(function(e) {
             /* var bgVideo = $('.section-video .fullscreen-bg video')[0];
             bgVideo.pause(); */
             var video = $('#modal-video video')[0];

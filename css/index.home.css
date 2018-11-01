@@ -76,7 +76,15 @@
   background-size: 100% auto;
   -moz-background-size: 100% auto;
 }
-
+a.buynow{
+  background:none;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  margin-left: -15rem;
+  width: 30rem;
+  height: 12rem;
+}
 .pc-and-pad .home2-info {
   color: #fff;
   font-size: 1.6rem;
@@ -189,9 +197,10 @@
     width: 9rem;
     height: 3rem;
   }
-  
+ 
   
   .home2-info {
+    color: #fff;
     font-size: 1.1rem;
     line-height: 1.9rem;
   }
