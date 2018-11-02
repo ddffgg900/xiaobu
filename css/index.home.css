@@ -26,13 +26,11 @@
 
 .home-footer {
   position: absolute;
-  top: 60%;
   width: 100%;
   height: 100%;
-  background-image: url('../img/bj-1/bj1-3.png');
+  background-image: url('../img/pc/bj1/bj1-4.png');
   background-repeat: no-repeat;
-  background-size: 130% auto;
-  -moz-background-size: 130% auto;
+  background-size: 100% 100%;
 }
 
 .home-tag {
@@ -61,8 +59,8 @@
   background-repeat:no-repeat;
   background-size:auto 100%;
   -moz-background-size:auto 100%;
-  background-position: 50% 20px;
-  -moz-background-position: 50% 20px;
+  background-position: 50% 50%;
+  -moz-background-position: 50% 50%;
 }
 
 .buynow {

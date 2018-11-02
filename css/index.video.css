@@ -90,7 +90,7 @@
   top:15%;
   left:20%;
   width: 60%;
-  height: 73%;
+  height: auto;;
 }
 
 @media (max-width: 767px) {
