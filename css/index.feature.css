@@ -1,6 +1,6 @@
 .feature-slide {
   /* background-color: #fdd244; */
-  background: url('../img/pc/background/7.jpg') ,linear-gradient(180deg, #fdd244 27%,#fbe39d 62%, #e7daca 97%);
+  background: url('../img/pc/bj7/bj7.jpg') ,linear-gradient(180deg, #fdd244 15%,#fbe39d 58%, #e7daca 96%);
   background-repeat:no-repeat;
    background-size:auto 100%;
   -moz-background-size:auto 100% ;
@@ -34,7 +34,7 @@
 .feature-title {
   color: #853117;
   font-size: 2.5rem;
-  margin-top: 5%;
+  margin-top: 4%;
   font-weight: bold;
 }
 
@@ -160,12 +160,12 @@
 }
 .feature4-slide {
   background-color: #fdd244;
-  background-image: url('../img/pc/background/8.jpg');
+  /* background-image: url('../img/pc/background/8.jpg');
   background-repeat:no-repeat;
   background-size:  auto 100% ;
   -moz-background-size: auto 100% ;
   background-position: 50% 50%;
-  -moz-background-position: 50% 50%;
+  -moz-background-position: 50% 50%; */
 }
 .feature4-title {
   color: #853117;
@@ -182,20 +182,26 @@
 .feature4-icon {
   margin:auto;
   margin-top: 2%;
-  width:17rem;
-  height: 3rem;
+  width:100%;
+  height: 4%;
   background-image: url('../img/pc/bj8/bj8-1.png');
   background-repeat:no-repeat;
-  background-size:100% auto;
-  -moz-background-size:100% auto;
+  background-size:auto 100%;
+  -moz-background-size:auto 100%;
+  background-position: 50% 50%;
+  -moz-background-position: 50% 50%;
 }
 .feature4-footer {
   position: absolute;
   bottom:0;
-  left: 5%;
-  
-  width: 90%;
-  
+  width: 100%;
+  height: 93%;
+  background-image: url('../img/pc/bj8/bj8-2.png');
+  background-repeat:no-repeat;
+  background-size:auto 100%;
+  -moz-background-size:auto 100%;
+  background-position: 50% 50%;
+  -moz-background-position: 50% 50%;
 }
 .feature4-line {
   display: flex;
@@ -214,12 +220,12 @@
 
 .feature5-slide {
   background-color: #fff;
-  background-image: url('../img/pc/background/5.jpg');
+  /* background-image: url('../img/pc/background/5.jpg');
   background-repeat:no-repeat;
   background-size:  auto 100% ;
   -moz-background-size: auto 100% ;
-  background-position: 50% 50%;
-  -moz-background-position: 50% 50%;
+  background-position: 50% 20px;
+  -moz-background-position: 50% 20px; */
   
 }
 .feature5-content  {
@@ -241,11 +247,13 @@
   position: relative;
   background-image: url('../img/pc/bj5/bj5-1.png');
   margin: auto;
-  width:  20%;
-  height: 100%;
+  width:  100%;
+  height: 30%;
   background-repeat:no-repeat;
-  background-size:100% auto;
-  -moz-background-size:100% auto;
+  background-size:auto 100%;
+  -moz-background-size:auto 100%;
+  background-position: 50% 50%;
+  -moz-background-position: 50% 50%;
 }
 @media (max-height: 568px)  {
   .feature5-back {
@@ -264,21 +272,24 @@
   justify-content: center;
   flex-direction: column;
   position: absolute;
-  bottom: 1.3rem;
+  bottom: 2rem;
   width:100%;
+  height: 35%;
 }
 .feature5-tag>div {
   background-image: url('../img/pc/bj5/bj5-2.png');
   margin: auto;
-  width:  50rem;
-  height:14rem;
+  width:  100%;
+  height:100%;
   background-repeat:no-repeat;
-  background-size:100% auto;
-  -moz-background-size:100% auto;
+  background-size:auto 100%;
+  -moz-background-size:auto 100%;
+  background-position: 50% 50%;
+  -moz-background-position: 50% 50%;
 }
 .feature5-tag>p  {
   color: #853117;
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-top: 0.5rem;
 }
 
@@ -485,6 +496,8 @@
     background-repeat:no-repeat;
     background-size:100% auto;
     -moz-background-size:100% auto;
+    background-position: unset;
+    -moz-background-position: unset;
   }
   .feature4-line {
     display: flex;
@@ -527,6 +540,8 @@
     background-repeat:no-repeat;
     background-size:100% auto;
     -moz-background-size:100% auto;
+    background-position: 50% 0;
+    -moz-background-position: 50% 0;
   }
   
   .feature5-info {
@@ -543,6 +558,7 @@
     position: absolute;
     bottom: 1.3rem;
     width:100%;
+    height:auto;
   }
   .feature5-tag>div {
     background-image: url('../img/bj-8/bj-8-1.png');
@@ -552,6 +568,7 @@
     background-repeat:no-repeat;
     background-size:100% auto;
     -moz-background-size:100% auto;
+    
   }
   .feature5-tag>p  {
     color: #853117;

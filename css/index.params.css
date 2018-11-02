@@ -1,11 +1,11 @@
 .params1-slide1 {
   background-color: #fdd244;
-  background-image: url('../img/pc/background/11g-1.jpg');
+  background-image: url('../img/pc/bj11/bj11-1-1.png');
   background-repeat:no-repeat;
   background-size:100% auto;
   -moz-background-size: 100% auto;
-  background-position: 50% 50%;
-  -moz-background-position: 50% 50%;
+  background-position: 50% 0;
+  -moz-background-position: 50% 0;
 }
 .params1-slide2 {
   background-color: #fff;
@@ -126,7 +126,7 @@
 }
 .params2-slide {
   background-color: #f6ae36;
-  background-image: url('../img/pc/background/12.jpg');
+  background-image: url('../img/pc/bj12/bj12.jpg');
   background-repeat:no-repeat;
   background-size:auto 100%;
   -moz-background-size:auto  100%;
@@ -164,6 +164,15 @@
     background-size:100% auto;
     -moz-background-size:100% auto;
     
+  }
+  .params1-slide2 {
+    background-image: none;
+  }
+  .params1-slide3 {
+    background-image: none;
+  }
+  .params1-slide4 {
+    background-image:none;
   }
   
   .params1-desc1{

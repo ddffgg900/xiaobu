@@ -14,12 +14,14 @@
 .download-fhone {
   background-image: url('../img/bj-12/bj-12-4.png');
   margin: auto;
-  margin-top: 5%;
-  width: 8rem;
-  height: 20rem;
+  margin-top: 3%;
+  width: 100%;
+  height: 40%;
   background-repeat: no-repeat;
-  background-size: 100% auto;
-  -moz-background-size: 100% auto;
+  background-size: auto 100% ;
+  -moz-background-size: auto 100%;
+  background-position: 50% 50%;
+  -moz-background-position: 50% 50%;
 }
 
 .download-slide footer {
@@ -38,21 +40,24 @@
 .download-tag {
   display: flex;
   justify-content: center;
+  width: 100%;
+  height: 100%;
 }
 
 .download-tag>a {
-  margin: 2.5rem 7rem 0 7rem;
-  width: 3.5rem;
-  height: 4.2rem;
+  margin-top:3%;
+  width: 26%;
+  height: 40%;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
-  -moz-background-size: 100% 100%;
+  background-size: auto 100%;
+  -moz-background-size: auto 100%;
+  background-position: 50% 50%;
+  -moz-background-position: 50% 50%;
 }
 
 .download-tag>a>div {
-  width: 5.5rem;
-  margin-left: -1rem;
-  margin-top: 5rem;
+  width: 100%;
+  margin-top: 23%;
   color: #fff;
   font-size: 1.2rem;
 }
@@ -74,6 +79,8 @@
     background-repeat: no-repeat;
     background-size: 100% auto;
     -moz-background-size: 100% auto;
+    background-position: unset;
+    -moz-background-position: unset;
   }
   .download-slide footer {
     position: absolute;

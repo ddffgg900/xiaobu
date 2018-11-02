@@ -61,6 +61,8 @@
   background-repeat:no-repeat;
   background-size:auto 100%;
   -moz-background-size:auto 100%;
+  background-position: 50% 20px;
+  -moz-background-position: 50% 20px;
 }
 
 .buynow {
