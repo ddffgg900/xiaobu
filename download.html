@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>下载小布</title>
+  <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta content="yes" name="apple-mobile-web-app-capable" />
+  <meta name="keywords" content="小布AI机器人，小布机器人，AI机器人，智能机器人,
+  儿童智能机器人，智能音箱，儿童智能音箱，早教机，机器人学习机，早教机器人" />
+  <meta name="description" content="小布AI机器人是一款根据儿童使用习惯开发的人工智能音箱，拥有海量高品质教育内容，融合AI科技，通过“听”更好地解决0-12岁小朋友的启蒙教育和情感陪伴" />
+  <link rel="shortcut icon" href="favicon.ico" /> 
+  <link rel="bookmark" href="favicon.ico" /> 
+ 
+  <style>
+    *{
+      border: 0;
+      margin: 0;
+      padding: 0;
+    }
+    .main{
+      width: 100%;
+      height: 100%;
+      position: relative;
+    }
+    #download{
+      display: block;
+      width: 100%;
+    }
+    img{
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main">
+      <img src="img/download-top.jpg"/>
+      <a id="download" href="" target="_blank">
+        <img src="img/download-bottom.jpg"/>
+      </a>
+  </div>
+
+
+  <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.preload.js"></script>
+  <script type="text/javascript" src="vendor/modal/modalEffects.js"></script>
+  <script type="text/javascript" src="vendor/modal/classie.js"></script>
+
+  <script>
+    $(function(){
+      var u = navigator.userAgent;
+      // var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端
+      var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+      /* alert('是否是Android：'+isAndroid);
+      alert('是否是iOS：'+isiOS); */
+      if(isiOS) {
+        $('#download').attr('href', 'https://itunes.apple.com/cn/app/id1382579721?mt=8')
+      } else {
+        $('#download').attr('href', 'download/release_xiaobu_production_13_v2.0.2_release_201810110.apk')
+      }
+    })
+  </script>
+
+</body>
+
+</html>
