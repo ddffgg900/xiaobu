@@ -37,7 +37,7 @@
 <body>
   <div class="main">
       <img src="img/download-top.jpg"/>
-      <a id="download" href="" target="_blank">
+      <a id="download" href="">
         <img src="img/download-bottom.jpg"/>
       </a>
   </div>
@@ -55,10 +55,21 @@
       var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
       /* alert('是否是Android：'+isAndroid);
       alert('是否是iOS：'+isiOS); */
+      var ua = window.navigator.userAgent.toLowerCase();
+      var isWX = (u.toLowerCase().match(/MicroMessenger/i) == 'micromessenger')
+      
+
       if(isiOS) {
         $('#download').attr('href', 'https://itunes.apple.com/cn/app/id1382579721?mt=8')
       } else {
-        $('#download').attr('href', 'download/release_xiaobu_production_13_v2.0.2_release_201810110.apk')
+        if(isWX) {
+          $('#download').click(function(){
+            alert('微信中不支持下载文件,请点击右上角在浏览器中打开')
+          })
+        }else{
+          $('#download').attr('href', 'download/release_xiaobu_production_13_v2.0.2_release_201810110.apk')
+
+        }
       }
     })
   </script>
