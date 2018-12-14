@@ -54,6 +54,20 @@
     img{
       width: 100%;
     }
+    #wxbg {
+      position: fixed;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+      background-color: rgba(0, 0, 0, 0.66);
+      background-image: url('./img/download/wxbg.png');
+      background-repeat:no-repeat;
+      background-size:90% auto;
+      -moz-background-size:90% auto;
+      background-position: 50% 0;
+      -moz-background-position: 50% 0;
+    }
   </style>
 </head>
 
@@ -68,6 +82,7 @@
         <div>安卓系统</div>
       </a>
     </div>
+    <div id="wxbg" style="display: none;"></div>
   </div>
 
 
@@ -85,21 +100,23 @@
       alert('是否是iOS：'+isiOS); */
       var ua = window.navigator.userAgent.toLowerCase();
       var isWX = (u.toLowerCase().match(/MicroMessenger/i) == 'micromessenger')
-      
-
+      $('#wxbg').click(function(){
+        $('#wxbg').hide();
+      })
       if(isiOS) {
         $('#ios').attr('href', 'https://itunes.apple.com/cn/app/id1382579721?mt=8');
-        $('#ad').attr('href', '');
+        $('#ad').removeAttr('href');
         $('#ios').css({color: '#fff', 'background-image':'url(./img/download/ap_true.png)'});
         $('#ad').css({color: '#999', 'background-image':'url(./img/download/ad_false.png)'});
       } else {
         if(isWX) {
           $('#download').click(function(){
-            alert('微信中不支持下载文件,请点击右上角在浏览器中打开')
+            /* alert('微信中不支持下载文件,请点击右上角在浏览器中打开') */
+            $('#wxbg').show();
           })
         }else{
           $('#download').attr('href', 'download/release_xiaobu_production.apk')
-          $('#ios').attr('href', '');
+          $('#ios').removeAttr('href');
           $('#ad').attr('href', 'download/release_xiaobu_production.apk');
           $('#ios').css({color: '#999', 'background-image':'url(./img/download/ap_false.png)'});
           $('#ad').css({color: '#fff', 'background-image':'url(./img/download/ad_true.png)'});
