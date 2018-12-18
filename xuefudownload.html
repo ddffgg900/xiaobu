@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>下载小布</title>
+  <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta content="yes" name="apple-mobile-web-app-capable" />
+  <meta name="keywords" content="小布AI机器人，小布机器人，AI机器人，智能机器人,
+  儿童智能机器人，智能音箱，儿童智能音箱，早教机，机器人学习机，早教机器人" />
+  <meta name="description" content="小布AI机器人是一款根据儿童使用习惯开发的人工智能音箱，拥有海量高品质教育内容，融合AI科技，通过“听”更好地解决0-12岁小朋友的启蒙教育和情感陪伴" />
+  <link rel="shortcut icon" href="favicon.ico" /> 
+  <link rel="bookmark" href="favicon.ico" /> 
+  <link rel="stylesheet" type="text/css" href="css/common.css" />
+  <style>
+    *{
+      border: 0;
+      margin: 0;
+      padding: 0;
+    }
+    #main{
+      width: 100%;
+    }
+    img{
+      width: 100%;
+      border: 0;
+      margin: 0;
+      padding: 0;
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="main" class="hidden">
+    <img src="img/xuefu/xuefu_01.jpg"/>
+    <img src="img/xuefu/xuefu_02.jpg"/>
+    <img src="img/xuefu/xuefu_03.jpg"/>
+    <img src="img/xuefu/xuefu_04.jpg"/>
+    <img src="img/xuefu/xuefu_05.jpg"/>
+    <img src="img/xuefu/xuefu_06.jpg"/>
+    <img src="img/xuefu/xuefu_07.jpg"/>
+    <img src="img/xuefu/xuefu_08.jpg"/>
+    <img src="img/xuefu/xuefu_09.jpg"/>
+    <img src="img/xuefu/xuefu_10.jpg"/>
+    <img src="img/xuefu/xuefu_11.jpg"/>
+    <img src="img/xuefu/xuefu_12.jpg"/>
+    <img src="img/xuefu/xuefu_13.jpg"/>
+    <img src="img/xuefu/xuefu_14.jpg"/>
+    <img src="img/xuefu/xuefu_15.jpg"/>
+    <img src="img/xuefu/xuefu_16.jpg"/>
+    <img src="img/xuefu/xuefu_17.jpg"/>
+    <img src="img/xuefu/xuefu_18.jpg"/>
+    <img src="img/xuefu/xuefu_19.jpg"/>
+    <img src="img/xuefu/xuefu_20.jpg"/>
+    <img src="img/xuefu/xuefu_21.jpg"/>
+    <img src="img/xuefu/xuefu_22.jpg"/>
+    <img src="img/xuefu/xuefu_23.jpg"/>
+    <img src="img/xuefu/xuefu_24.jpg"/>
+    <img src="img/xuefu/xuefu_25.jpg"/>
+    <img src="img/xuefu/xuefu_26.jpg"/>
+    <img src="img/xuefu/xuefu_27.jpg"/>
+    <img src="img/xuefu/xuefu_28.jpg"/>
+    <img src="img/xuefu/xuefu_29.jpg"/>
+    <img src="img/xuefu/xuefu_30.jpg"/>
+  </div>
+  <div id="loading" class="hidden">
+    <div class="loading-xiaobu">
+      <div></div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.preload.js"></script>
+  <script type="text/javascript" src="vendor/modal/modalEffects.js"></script>
+  <script type="text/javascript" src="vendor/modal/classie.js"></script>
+
+  <script>
+    var imgs = ['img/loading.png', 'img/nav-menu.jpg'];
+    $.preload(imgs, {
+      minTimer: 500,
+      // 加载完所有的图片执行的方法
+      end: function() {
+        $('#loading').toggleClass('hidden');
+        $(document).ready(function() {
+          var imgs = [
+            "img/xuefu/xuefu_01.jpg",
+            "img/xuefu/xuefu_02.jpg",
+            "img/xuefu/xuefu_03.jpg",
+            "img/xuefu/xuefu_04.jpg",
+            "img/xuefu/xuefu_05.jpg",
+            "img/xuefu/xuefu_06.jpg",
+            "img/xuefu/xuefu_07.jpg",
+            "img/xuefu/xuefu_08.jpg",
+            "img/xuefu/xuefu_09.jpg",
+            "img/xuefu/xuefu_10.jpg",
+            "img/xuefu/xuefu_11.jpg",
+            "img/xuefu/xuefu_12.jpg"
+          ];
+          
+          $.preload(imgs, {
+            minTimer: 2000,
+            // 加载完所有的图片执行的方法
+            end: function() {
+              $('#loading').toggleClass('hidden');
+              $('#main').toggleClass('hidden');
+            }
+          });
+
+        });
+      }
+    });
+  </script>
+
+</body>
+
+</html>
